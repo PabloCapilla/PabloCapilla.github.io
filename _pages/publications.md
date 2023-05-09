@@ -1,6 +1,6 @@
 ---
 permalink: /publications/
-title: "Publications"
+title: "Papers"
 layout: single
 toc: true
 toc_label: "Papers"
