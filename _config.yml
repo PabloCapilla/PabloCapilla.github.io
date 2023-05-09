@@ -13,12 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Test Web No profile pages
+title: Test Web
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description:
 twitter_username: p_capi
 github_username: PabloCapilla
 minimal_mistakes_skin: contrast
@@ -59,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Pablo Capilla-Lasheras"
   avatar : "/assets/images/test.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "BIO"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -90,10 +87,10 @@ defaults:
     values:
       layout: single
       author_profile: false
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
