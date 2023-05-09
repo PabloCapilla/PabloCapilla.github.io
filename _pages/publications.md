@@ -27,9 +27,9 @@ Schmid D. W, Capilla-Lasheras P., Dominoni D. M., Müller-Klein N., Sommer S., R
 
 ***2019***
 
-5 - Łapińska U., Glover G., ***Capilla-Lasheras P.***, Young A. J., Pagliara S. 2019. Bacterial ageing in the absence of external stressors. Philosophical Transactions of the Royal Society B 374, 20180442.
+5 - Łapińska U., Glover G., **Capilla-Lasheras P.**, Young A. J., Pagliara S. 2019. Bacterial ageing in the absence of external stressors. Philosophical Transactions of the Royal Society B 374, 20180442.
 
-4 - Bravo-Santano N., ***Capilla-Lasheras P.***, Mateos L. M., Calle Y., Behrends V., Letek M. 2019. Identification of novel targets for host-directed therapeutics against intracellular Staphylococcus aureus. Scientific Reports 9, 15435.
+4 - Bravo-Santano N., **Capilla-Lasheras P.**, Mateos L. M., Calle Y., Behrends V., Letek M. 2019. Identification of novel targets for host-directed therapeutics against intracellular *Staphylococcus aureus*. Scientific Reports 9, 15435.
 
 ***2018***
 
