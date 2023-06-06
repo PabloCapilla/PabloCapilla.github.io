@@ -1,11 +1,13 @@
 main:
   - title: "Welcome"
     url: /welcome/
-  - title: "Research"
-    url: /research/
-  #- title: "Papers"
-  #  url: /publications/
-  - title: "About"
-    url: /about/
-  #- title: "About"
-  #  url: /about/
+  - title: "Human effects on migration - The Scops Owl Project"
+    url: /the_scops_owl_project/
+  - title: "Urban gut microbiomes"
+    url: /urban_gut_microbiomes/
+  - title: "Research in a pristine environment"
+    url: /research_in_a_pristine_environment/
+  - title: "Papers"
+    url: /papers/
+  - title: "Ethics in Research"
+    url: "ethics"

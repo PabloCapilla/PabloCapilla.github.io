@@ -1,14 +1,14 @@
 Pablo Capilla-Lasheras:
   name        : "Pablo Capilla-Lasheras"
   bio         : "What do you want, jewels? I am a very extravagant man."
-#  avatar      : "/assets/images/bio-photo-2.jpg"
+# avatar      : "/assets/images/bio-photo-2.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: "mailto:"
+      url: "mailto: pacapilla@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      #url: "https://thewhip.com"
+      url: "https://pablocapilla.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      #url: "https://twitter.com/extravagantman"
+      url: "https://twitter.com/p_capi"
