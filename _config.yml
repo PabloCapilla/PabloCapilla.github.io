@@ -20,7 +20,7 @@ email:
 description:
 twitter_username: p_capi
 github_username: PabloCapilla
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
