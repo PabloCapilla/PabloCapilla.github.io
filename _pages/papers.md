@@ -10,6 +10,22 @@ header:
 ---
 
 # Pre-prints
+Mothers front-load their investment to the egg stage when helped in a wild cooperative bird
+P Capilla-Lasheras, AJ Wilson, AJ Young
+bioRxiv
+
+Reproductive fitness is associated with female chronotype in a songbird
+RJ Womack, P Capilla-Lasheras, CLO McGlade, DM Dominoni, B Helm
+bioRxiv
+
+Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment
+MD Pitt, P Capilla-Lasheras, NSS Alhowiti, C Branston, E Carlon, ...
+bioRxiv, 2023.01. 05.522710
+
+Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach
+P Salmón, D López-Idiáquez, P Capilla-Lasheras, J Pérez-Tris, ...
+bioRxiv, 2022.09. 13.507844
+
 
 # 2023
 
@@ -29,7 +45,7 @@ header:
 
 9 - Brown A., Wood E., **Capilla-Lasheras P.**, Harrison X., Young A. J. 2021. Longitudinal evidence that older parents produce offspring with longer telomeres in a wild social bird. Biology Letters 17, 20210409. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Biology Letters - Brown.pdf)
 
-8 - **Capilla-Lasheras P.**, Harrison X., Wood E. M., Wilson A. J., Young A. J. 2021. Altruistic bet-hedging and the evolution of cooperation in a Kalahari bird. Science Advances 7, eabe8980. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf)
+8 - **Capilla-Lasheras P.**, Harrison X., Wood E. M., Wilson A. J., Young A. J. 2021. Altruistic bet-hedging and the evolution of cooperation in a Kalahari bird. Science Advances 7, eabe8980. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf) <div class='altmetric-embed' data-doi='110.1126/sciadv.abe8980'></div>
 
 7 - **Capilla-Lasheras P.**, Bondía B., Aguirre J. I. 2021. Environmental conditions but not nest composition affect reproductive success in an urban bird. Ecology & Evolution 11, 3084-3092. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf)
 
