@@ -27,6 +27,6 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-**Novel Environment Animal Research Site**
+**Novel Environment Animal Research**
 
 {% include feature_row %}
