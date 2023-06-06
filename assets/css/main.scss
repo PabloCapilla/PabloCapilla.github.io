@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 html {
-  font-size: 11px; // originally 16px
+  font-size: 75px; // originally 16px
 
   @include breakpoint($medium) {
     font-size: 14px; // change to whatever
