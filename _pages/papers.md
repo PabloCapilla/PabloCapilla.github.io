@@ -26,7 +26,6 @@ Urbanisation impacts plumage colouration in a songbird across Europe: evidence f
 P Salmón, D López-Idiáquez, P Capilla-Lasheras, J Pérez-Tris, ...
 bioRxiv, 2022.09. 13.507844
 
-
 # 2023
 
 14 - Schmid D. W, **Capilla-Lasheras P.**, Dominoni D. M., Müller-Klein N., Sommer S., Risely A. 2023. Circadian rhythms of hosts and their gut microbiomes: implications for animal physiology and ecology. Functional Ecology, in press. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf)
