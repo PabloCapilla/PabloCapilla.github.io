@@ -45,8 +45,6 @@ bioRxiv, 2022.09. 13.507844
 9 - Brown A., Wood E., **Capilla-Lasheras P.**, Harrison X., Young A. J. 2021. Longitudinal evidence that older parents produce offspring with longer telomeres in a wild social bird. Biology Letters 17, 20210409. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Biology Letters - Brown.pdf)
 
 8 - **Capilla-Lasheras P.**, Harrison X., Wood E. M., Wilson A. J., Young A. J. 2021. Altruistic bet-hedging and the evolution of cooperation in a Kalahari bird. Science Advances 7, eabe8980. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf)
-{% include altimetrics-widget.html doi="10.1126/sciadv.abe8980" | $30" %}
-
 
 7 - **Capilla-Lasheras P.**, Bondía B., Aguirre J. I. 2021. Environmental conditions but not nest composition affect reproductive success in an urban bird. Ecology & Evolution 11, 3084-3092. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf)
 
