@@ -1,5 +1,5 @@
 ---
-permalink: /publications/
+permalink: /papers/
 title: "Papers"
 layout: single
 toc: true
