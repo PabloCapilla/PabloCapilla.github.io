@@ -1,8 +1,8 @@
 ---
 permalink: /welcome/
 title: "Welcome"
-layout: splash
-author_profile: false
+layout: single
+author_profile: true
 ---
 
 **Welcome to Pablo Capilla-Lasheras’ research website**
