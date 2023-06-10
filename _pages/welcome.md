@@ -31,5 +31,4 @@ You can find out more about my main research projects and publications using the
 
 If you’re keen to collaborate just drop me an email.
 
-
 {% include feature_row %}
