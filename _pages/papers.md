@@ -9,10 +9,9 @@ author_profile: false
 
 # Pre-prints
 
-18 - Environmental constraints can explain clutch size differences between urban and forest blue tits (*Cyanistes caeruleus*): insights from an egg removal experiment. Pitt M. D., **Capilla-Lasheras** P., Alhowiti N. S. S., Branston C., Carlon E., Boonekamp J., Dominoni D. bioRxiv, 2023.01.05.522710
+18 - Pitt M. D., **Capilla-Lasheras** P., Alhowiti N. S. S., Branston C., Carlon E., Boonekamp J., Dominoni D. Environmental constraints can explain clutch size differences between urban and forest blue tits (*Cyanistes caeruleus*): insights from an egg removal experiment. bioRxiv, 2023.01.05.522710
 
-17 - Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach.
-Salmón P., López-Idiáquez D., **Capilla-Lasheras** P., Pérez-Tris J., Isaksson C., Watson H. bioRxiv, 2022.09.13.507844
+17 - Salmón P., López-Idiáquez D., **Capilla-Lasheras** P., Pérez-Tris J., Isaksson C., Watson H.Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach. bioRxiv, 2022.09.13.507844
 
 16 - Womack R. J.<sup>A</sup>, **Capilla-Lasheras** P.<sup>A</sup>, McGlade C. L. O., Dominoni D., Helm B.Reproductive fitness is associated with female chronotype in a songbird. bioRxiv, 2022.07.01.498449. <sup>A</sup> shared first authorship.
 
