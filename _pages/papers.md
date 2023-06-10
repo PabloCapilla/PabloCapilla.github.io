@@ -5,26 +5,18 @@ layout: single
 toc: true
 toc_label: "Papers"
 author_profile: false
-header:
-  image: /assets/images/test.png
 ---
 
 # Pre-prints
-Mothers front-load their investment to the egg stage when helped in a wild cooperative bird
-P Capilla-Lasheras, AJ Wilson, AJ Young
-bioRxiv
 
-Reproductive fitness is associated with female chronotype in a songbird
-RJ Womack, P Capilla-Lasheras, CLO McGlade, DM Dominoni, B Helm
-bioRxiv
+18 - Environmental constraints can explain clutch size differences between urban and forest blue tits (*Cyanistes caeruleus*): insights from an egg removal experiment. Pitt M. D., **Capilla-Lasheras** P., Alhowiti N. S. S., Branston C., Carlon E., Boonekamp J., Dominoni D. bioRxiv, 2023.01.05.522710
 
-Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment
-MD Pitt, P Capilla-Lasheras, NSS Alhowiti, C Branston, E Carlon, ...
-bioRxiv, 2023.01. 05.522710
+17 - Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach.
+Salmón P., López-Idiáquez D., **Capilla-Lasheras** P., Pérez-Tris J., Isaksson C., Watson H. bioRxiv, 2022.09.13.507844
 
-Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach
-P Salmón, D López-Idiáquez, P Capilla-Lasheras, J Pérez-Tris, ...
-bioRxiv, 2022.09. 13.507844
+16 - Womack R. J.<sup>A</sup>, **Capilla-Lasheras** P.<sup>A</sup>, McGlade C. L. O., Dominoni D., Helm B.Reproductive fitness is associated with female chronotype in a songbird. bioRxiv, 2022.07.01.498449. <sup>A</sup> shared first authorship.
+
+15 - **Capilla-Lasheras** P., Wilson A. J., Young A. J. Mothers front-load their investment to the egg stage when helped in a wild cooperative bird. bioRxiv, 2021.11.11.468195
 
 # 2023
 
