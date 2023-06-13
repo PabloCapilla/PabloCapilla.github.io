@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: en-GB
-title: TEST
-subtitle: "Pablo Capilla-Lasheras' research"
+title: "Pablo Capilla-Lasheras' research"
+subtitle: ""
 email:
 description:
 twitter_username: p_capi
@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Pablo Capilla-Lasheras"
-  avatar : "/assets/images/test.png"
+  avatar : "/assets/images/profile_photo.jpg"
   bio    : "BIO"
   links:
     links:

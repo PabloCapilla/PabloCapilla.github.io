@@ -4,7 +4,7 @@ title: "Papers"
 layout: single
 toc: true
 toc_label: "Papers"
-author_profile: false
+author_profile: true
 ---
 
 # Pre-prints
