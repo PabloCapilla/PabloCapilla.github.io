@@ -5,6 +5,9 @@ layout: publications
 author_profile: false
 classes: wide
 ---
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <br/>
 
 # Pre-prints
@@ -27,11 +30,10 @@ classes: wide
 
 # 2022
 
-13 - **Capilla-Lasheras P.**, Thompson M. J., Sánchez-Tójar A., Haddou Y., Branston C. J., Réale D., Charmantier C., Dominoni D. M. 2022. A global meta-analysis reveals higher variation in breeding phenology in urban birds than in their non-urban neighbours. Ecology Letters 25, 2552-2570. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf)
-
+13 - **Capilla-Lasheras P.**, Thompson M. J., Sánchez-Tójar A., Haddou Y., Branston C. J., Réale D., Charmantier C., Dominoni D. M. 2022. A global meta-analysis reveals higher variation in breeding phenology in urban birds than in their non-urban neighbours. Ecology Letters 25, 2552-2570. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf).
 <div class="altmetric-embed">
   <a href="https://doi.org/10.1111/ele.14099" target="_blank" rel="noopener">
-    <img src="https://api.altmetric.com/widgets/embed/attention-score/YOUR_DOI.svg" alt="Altmetric Attention Score">
+    <img src="https://api.altmetric.com/widgets/embed/attention-score/10.1111/ele.14099.svg" alt="Altmetric Attention Score">
   </a>
 </div>
 
