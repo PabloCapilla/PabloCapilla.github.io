@@ -1,11 +1,14 @@
 ---
 permalink: /papers/
 title: "Papers"
-layout: default
-sidebar:
-  nav: "publications"
-classes: wide
+layout: publications
+toc: true
+toc_sticky: true
+toc_label: "Papers"
+author_profile: false
 ---
+
+{% include toc %}
 
 # Pre-prints
 
