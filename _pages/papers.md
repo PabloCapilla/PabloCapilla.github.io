@@ -28,7 +28,12 @@ classes: wide
 # 2022
 
 13 - **Capilla-Lasheras P.**, Thompson M. J., Sánchez-Tójar A., Haddou Y., Branston C. J., Réale D., Charmantier C., Dominoni D. M. 2022. A global meta-analysis reveals higher variation in breeding phenology in urban birds than in their non-urban neighbours. Ecology Letters 25, 2552-2570. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf)
-<div data-badge-type="donut" data-doi="	10.1111/ele.14099" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<div class="altmetric-embed">
+  <a href="https://doi.org/10.1111/ele.14099" target="_blank" rel="noopener">
+    <img src="https://api.altmetric.com/widgets/embed/attention-score/YOUR_DOI.svg" alt="Altmetric Attention Score">
+  </a>
+</div>
 
 
 12 - Thompson M. J., **Capilla-Lasheras P.**, Dominoni D. M., Réale D., & Charmantier A. 2022. Phenotypic variation in urban environments: proximate causes and evolutionary implications. Trends in Ecology and Evolution 37, 171-182. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf)
