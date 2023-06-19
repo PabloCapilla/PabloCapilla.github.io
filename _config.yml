@@ -111,3 +111,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Altmetric
+altmetric:
+  api_key: 22520439fa3047868ddd134ef2229449
