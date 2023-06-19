@@ -2,12 +2,11 @@
 permalink: /papers/
 title: "Publications"
 layout: publications
+author_profile: false
 classes: wide
-sidebar:
-  nav: "publications"
 ---
 
-{% include toc %}
+{{ content }}
 
 # Pre-prints
 
