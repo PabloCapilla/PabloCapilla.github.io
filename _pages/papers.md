@@ -1,8 +1,10 @@
 ---
 permalink: /papers/
-title: "Papers"
+title: "Publications"
 layout: publications
 classes: wide
+sidebar:
+  nav: "publications"
 ---
 
 {% include toc %}

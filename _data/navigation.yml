@@ -7,7 +7,8 @@ main:
 #    url: /the_scops_owl_project/
 #  - title: "Sparrow weavers"
 #    url: /sparrow_weavers/
-  - title: "Papers"
+  - title: "Publications"
     url: /papers/
+    output: true
   - title: "Ethics in Research"
     url: "/ethics/"
