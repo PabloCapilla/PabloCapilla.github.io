@@ -2,10 +2,7 @@
 permalink: /papers/
 title: "Papers"
 layout: publications
-toc: true
-toc_sticky: true
-toc_label: "Papers"
-author_profile: false
+classes: wide
 ---
 
 {% include toc %}
