@@ -11,15 +11,19 @@ author_profile: false
 
 18 - Pitt M. D., **Capilla-Lasheras** P., Alhowiti N. S. S., Branston C., Carlon E., Boonekamp J., Dominoni D. Environmental constraints can explain clutch size differences between urban and forest blue tits (*Cyanistes caeruleus*): insights from an egg removal experiment. bioRxiv, 2023.01.05.522710
 
-17 - Salmón P., López-Idiáquez D., **Capilla-Lasheras** P., Pérez-Tris J., Isaksson C., Watson H.Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach. bioRxiv, 2022.09.13.507844
+17 - Womack R. J.<sup>A</sup>, **Capilla-Lasheras** P.<sup>A</sup>, McGlade C. L. O., Dominoni D., Helm B.Reproductive fitness is associated with female chronotype in a songbird. bioRxiv, 2022.07.01.498449. <sup>A</sup> shared first authorship.
 
-16 - Womack R. J.<sup>A</sup>, **Capilla-Lasheras** P.<sup>A</sup>, McGlade C. L. O., Dominoni D., Helm B.Reproductive fitness is associated with female chronotype in a songbird. bioRxiv, 2022.07.01.498449. <sup>A</sup> shared first authorship.
+16 - **Capilla-Lasheras** P., Wilson A. J., Young A. J. Mothers front-load their investment to the egg stage when helped in a wild cooperative bird. bioRxiv, 2021.11.11.468195
 
-15 - **Capilla-Lasheras** P., Wilson A. J., Young A. J. Mothers front-load their investment to the egg stage when helped in a wild cooperative bird. bioRxiv, 2021.11.11.468195
+<br/>
 
 # 2023
 
+15 - Salmón P., López-Idiáquez D., **Capilla-Lasheras** P., Pérez-Tris J., Isaksson C., Watson H.Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach. _accepted_, Journal of Animal Ecology.
+
 14 - Schmid D. W, **Capilla-Lasheras P.**, Dominoni D. M., Müller-Klein N., Sommer S., Risely A. 2023. Circadian rhythms of hosts and their gut microbiomes: implications for animal physiology and ecology. Functional Ecology, in press. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf)
+
+<br/>
 
 # 2022
 
@@ -28,6 +32,8 @@ author_profile: false
 12 - Thompson M. J., **Capilla-Lasheras P.**, Dominoni D. M., Réale D., & Charmantier A. 2022. Phenotypic variation in urban environments: proximate causes and evolutionary implications. Trends in Ecology and Evolution 37, 171-182. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf)
 
 11 - Wood E., **Capilla-Lasheras P.**, Cram D., Walker L., York J., Lange A., Hamilton P., Tyler C., Young A. J. 2022. Social dominance and rainfall predict telomere dynamics in a cooperative arid-zone bird. Molecular Ecology 31, 6141-6154. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2022 - Molecular Ecology - Wood.pdf)
+
+<br/>
 
 # 2021
 
@@ -39,18 +45,23 @@ author_profile: false
 
 7 - **Capilla-Lasheras P.**, Bondía B., Aguirre J. I. 2021. Environmental conditions but not nest composition affect reproductive success in an urban bird. Ecology & Evolution 11, 3084-3092. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf)
 
+<br/>
+
 # 2019
 
 6 - Łapińska U., Glover G., **Capilla-Lasheras P.**, Young A. J., Pagliara S. 2019. Bacterial ageing in the absence of external stressors. Philosophical Transactions of the Royal Society B 374, 20180442. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2019 - Philosophical Transactions of the Royal Society B - Łapińska.pdf)
 
 5 - Bravo-Santano N., **Capilla-Lasheras P.**, Mateos L. M., Calle Y., Behrends V., Letek M. 2019. Identification of novel targets for host-directed therapeutics against intracellular *Staphylococcus aureus*. Scientific Reports 9, 15435. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2019 - Scientific Repots - Bravo-Santano.pdf)
 
+<br/>
 
 # 2018
 
 4 - **Capilla-Lasheras P.** 2018. incR: a new R package to analyse incubation behaviour. Journal of Avian Biology 49, e01710.[PDF](http://PabloCapilla.github.io/assets/pub_pdf/2018 - Journal of Avian Biology - Capilla‐Lasheras.pdf)
 
-3 - Gwinner H., Capilla-Lasheras P., Cooper C., Helm B. 2018. ‘Green incubation’: avian offspring benefit from aromatic nest herbs through improved parental incubation behaviour. Proceedings of the Royal Society B 285 (1880), 20180376. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2018 - Proceedings of the Royal Society B - Gwinner.pdf)
+3 - Gwinner H., **Capilla-Lasheras P.**, Cooper C., Helm B. 2018. ‘Green incubation’: avian offspring benefit from aromatic nest herbs through improved parental incubation behaviour. Proceedings of the Royal Society B 285 (1880), 20180376. [PDF](http://PabloCapilla.github.io/assets/pub_pdf/2018 - Proceedings of the Royal Society B - Gwinner.pdf)
+
+<br/>
 
 # 2017
 
