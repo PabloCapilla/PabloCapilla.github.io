@@ -5,8 +5,7 @@ layout: publications
 author_profile: false
 classes: wide
 ---
-
-{{ content }}
+<br/>
 
 # Pre-prints
 
