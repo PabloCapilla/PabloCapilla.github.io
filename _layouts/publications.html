@@ -14,13 +14,14 @@ layout: default
 
     <ul>
       {% assign category_publications = publications | where: 'category', category %}
-      {% assign years = category_publications | map: 'year' | uniq %}
+      {% assign years = category_publications | map: 'year' | uniq | sort: 'DESC' %}
 
       {% for year in years %}
         <h4>{{ year }}</h4>
 
         {% assign year_publications = category_publications | where: 'year', year %}
-        {% for publication in year_publications %}
+        {% assign sorted_year_publications = year_publications | sort: 'title' %}
+        {% for publication in sorted_year_publications %}
           <li>
             <div>
               <span class="publication-title">{{ publication.title }}</span>
