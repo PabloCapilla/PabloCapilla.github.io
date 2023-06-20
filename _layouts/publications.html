@@ -2,55 +2,120 @@
 layout: default
 ---
 
-{% assign sorted_publications = site.data.publications | sort: 'year' | reverse %}
-{% assign publications = sorted_publications | map: 'last' %}
-{% assign categories = publications | map: 'category' | uniq %}
+{% assign publications = site.data.publications %}
+{% assign total_publications = 0 %}
+{% for category in publications %}
+  {% assign category_publications = category[1] %}
+  {% assign total_publications = total_publications | plus: category_publications.size %}
+{% endfor %}
+{% assign counter = total_publications %}
 
 <div class="publications-list">
-  <h2>Publications</h2>
+  <h1>Publications</h1>
 
-  {% for category in categories %}
-    <h3>{{ category | capitalize }}</h3>
+  {% for category in publications %}
+    {% assign category_name = category[0] %}
+    {% assign category_publications = category[1] %}
+    {% assign sorted_publications = category_publications | sort: "year" | reverse %}
 
-    <ul>
-      {% assign category_publications = publications | where: 'category', category %}
-      {% assign years = category_publications | map: 'year' | uniq | sort: 'DESC' %}
+    {% if category_name == "preprints" %}
+      <h2>{{ category_name | capitalize }}</h2>
+    {% else %}
+      {% continue %}
+    {% endif %}
 
-      {% for year in years %}
-        <h4>{{ year }}</h4>
+    {% assign current_year = "" %}
+    {% for publication in sorted_publications %}
+      {% assign year = publication.year | default: "" %}
 
-        {% assign year_publications = category_publications | where: 'year', year %}
-        {% assign sorted_year_publications = year_publications | sort: 'title' %}
-        {% for publication in sorted_year_publications %}
-          <li>
-            <div>
-              <span class="publication-title">{{ publication.title }}</span>
-              <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
-              {% if publication.journal %}
-                <span class="publication-journal">{{ publication.journal }}</span>
-              {% endif %}
-              {% if publication.pages %}
-                <span class="publication-pages">{{ publication.pages }}</span>
-              {% endif %}
-              {% if publication.source %}
-                <span class="publication-source">{{ publication.source }}</span>
-              {% endif %}
-              {% if publication.year %}
-                <span class="publication-year">{{ publication.year }}</span>
-              {% endif %}
-              {% if publication.pdf %}
-                <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
-              {% endif %}
-              {% if publication.doi %}
-                <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
-              {% endif %}
-              {% if publication.altmetric_doi %}
-                <div class="altmetric-embed" data-badge-type="1" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
-              {% endif %}
+      {% if year != current_year %}
+        {% assign current_year = year %}
+        <h3>{{ current_year }}</h3>
+      {% endif %}
+
+      <div>
+        <span class="publication-number">{{ counter }}</span>
+        <span class="publication-divider"> - </span>
+        <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
+        <span class="publication-year">{{ publication.year}}</span><span class="publication-divider">.</span>
+        <span class="publication-title">{{ publication.title }}</span><span class="publication-divider">.</span>
+        {% if publication.journal %}
+          <span class="publication-journal">{{ publication.journal }}</span>
+        {% endif %}
+        {% if publication.pages %}
+          <span class="publication-pages">{{ publication.pages }}</span>
+        {% endif %}
+        {% if publication.source %}
+          <span class="publication-source">{{ publication.source }}</span>
+        {% endif %}
+        {% if publication.pdf %}
+          <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
+        {% endif %}
+        {% if publication.doi %}
+          <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
+        {% endif %}
+        {% if publication.altmetric_doi %}
+          <div class="publication-altmetric">
+            <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
+          </div>
+        {% endif %}
+      </div>
+
+      {% assign counter = counter | minus: 1 %}
+    {% endfor %}
+  {% endfor %}
+
+  <h2>Papers</h2>
+
+  {% for category in publications %}
+    {% assign category_name = category[0] %}
+    {% assign category_publications = category[1] %}
+    {% assign sorted_publications = category_publications | sort: "year" | reverse %}
+
+    {% if category_name == "papers" %}
+      {% assign current_year = "" %}
+      {% for publication in sorted_publications %}
+        {% assign year = publication.year | default: "" %}
+
+        {% if year != current_year %}
+          {% assign current_year = year %}
+          <h3>{{ current_year }}</h3>
+        {% endif %}
+
+        <div>
+          <span class="publication-number">{{ counter }}</span>
+          <span class="publication-divider"> - </span>
+          <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
+          <span class="publication-year">{{ publication.year}}</span><span class="publication-divider">.</span>
+          <span class="publication-title">{{ publication.title }}</span><span class="publication-divider">.</span>
+          {% if publication.journal %}
+            <span class="publication-journal">{{ publication.journal }}</span>
+          {% endif %}
+          {% if publication.pages %}
+            <span class="publication-pages">{{ publication.pages }}</span>
+          {% endif %}
+          {% if publication.source %}
+            <span class="publication-source">{{ publication.source }}</span>
+          {% endif %}
+          {% if publication.pdf %}
+            <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
+          {% endif %}
+          {% if publication.doi %}
+            <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
+          {% endif %}
+          {% if publication.altmetric_doi %}
+            <div class="publication-altmetric">
+              <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
             </div>
-          </li>
-        {% endfor %}
+          {% endif %}
+        </div>
+
+        {% assign counter = counter | minus: 1 %}
       {% endfor %}
-    </ul>
+    {% else %}
+      {% continue %}
+    {% endif %}
   {% endfor %}
 </div>
+
+<link rel="stylesheet" href="C:\Users\pc395\PabloCapilla.github.io\assets\css\publications.css">
