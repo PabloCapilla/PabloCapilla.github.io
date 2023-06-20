@@ -1,0 +1,87 @@
+preprints:
+  - id: 18
+    title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
+    authors:
+      - Pitt M. D.
+      - Capilla-Lasheras P.
+      - Alhowiti N. S. S.
+      - Branston C.
+      - Carlon E.
+      - Boonekamp J.
+      - Dominoni D.
+    year: 2023
+    source: "bioRxiv"
+    doi: "10.1101/2023.01.05.522710"
+
+  - id: 17
+    title: "Reproductive fitness is associated with female chronotype in a songbird"
+    authors:
+      - Womack R. J.
+      - Capilla-Lasheras P.
+      - McGlade C. L. O.
+      - Dominoni D.
+      - Helm B.
+    year: 2023
+    source: "bioRxiv"
+    doi: "10.1101/2022.07.01.498449"
+
+papers:
+  - id: 15
+    title: "Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach"
+    authors:
+      - Salmón P.
+      - López-Idiáquez D.
+      - Capilla-Lasheras P.
+      - Pérez-Tris J.
+      - Isaksson C.
+      - Watson H.
+    year: 2023
+    journal: "accepted"
+
+  - id: 14
+    title: "Circadian rhythms of hosts and their gut microbiomes: implications for animal physiology and ecology"
+    authors:
+      - Schmid D. W.
+      - Capilla-Lasheras P.
+      - Dominoni D. M.
+      - Müller-Klein N.
+      - Sommer S.
+      - Risely A.
+    year: 2023
+    journal: "Functional Ecology"
+    pages: "37, 476-487"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf"
+    doi: "10.1111/1365-2435.14255"
+
+  - id: 13
+    title: "A global meta-analysis reveals higher variation in breeding phenology in urban birds than in their non-urban neighbours"
+    authors:
+      - Capilla-Lasheras P.
+      - Thompson M. J.
+      - Sánchez-Tójar A.
+      - Haddou Y.
+      - Branston C. J.
+      - Réale D.
+      - Charmantier C.
+      - Dominoni D. M.
+    year: 2022
+    journal: "Ecology Letters"
+    pages: "25, 2552-2570"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf"
+    doi: "10.1111/ele.14099"
+    altmetric_doi: "10.1111/ele.14099"
+
+  - id: 12
+    title: "Phenotypic variation in urban environments: proximate causes and evolutionary implications"
+    authors:
+      - Thompson M. J.
+      - Capilla-Lasheras P.
+      - Dominoni D. M.
+      - Réale D.
+      - Charmantier A.
+    year: 2022
+    journal: "Trends in Ecology and Evolution"
+    pages: "37, 171-182"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf"
+    doi: "10.1016/j.tree.2021.09.009"
+    altmetric_doi: "10.1016/j.tree.2021.09.009"

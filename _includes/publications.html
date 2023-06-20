@@ -1,0 +1,26 @@
+<div>
+  <span class="publication-number">{{ forloop.index }}</span>
+  <span class="publication-title">{{ publication.title }}</span>
+  <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
+  {% if publication.journal %}
+    <span class="publication-journal">{{ publication.journal }}</span>
+  {% endif %}
+  {% if publication.pages %}
+    <span class="publication-pages">{{ publication.pages }}</span>
+  {% endif %}
+  {% if publication.source %}
+    <span class="publication-source">{{ publication.source }}</span>
+  {% endif %}
+  {% if publication.year %}
+    <span class="publication-year">{{ publication.year }}</span>
+  {% endif %}
+  {% if publication.pdf %}
+    <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
+  {% endif %}
+  {% if publication.doi %}
+    <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
+  {% endif %}
+  {% if publication.altmetric_doi %}
+    <div class="altmetric-embed" data-badge-type="1" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
+  {% endif %}
+</div>

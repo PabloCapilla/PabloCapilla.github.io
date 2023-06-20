@@ -2,20 +2,54 @@
 layout: default
 ---
 
-<div id="main" role="main">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 order-lg-1">
-        {% include sidebar.html %}
-      </div>
-      <div class="col-lg-9 order-lg-2">
-        <article class="page">
-          {% unless page.header.overlay_color or page.header.overlay_image %}
-            <h1 class="page__title">{{ page.title }}</h1>
-          {% endunless %}
-          {{ content }}
-        </article>
-      </div>
-    </div>
-  </div>
+{% assign sorted_publications = site.data.publications | sort: 'year' | reverse %}
+{% assign publications = sorted_publications | map: 'last' %}
+{% assign categories = publications | map: 'category' | uniq %}
+
+<div class="publications-list">
+  <h2>Publications</h2>
+
+  {% for category in categories %}
+    <h3>{{ category | capitalize }}</h3>
+
+    <ul>
+      {% assign category_publications = publications | where: 'category', category %}
+      {% assign years = category_publications | map: 'year' | uniq %}
+
+      {% for year in years %}
+        <h4>{{ year }}</h4>
+
+        {% assign year_publications = category_publications | where: 'year', year %}
+        {% for publication in year_publications %}
+          <li>
+            <div>
+              <span class="publication-title">{{ publication.title }}</span>
+              <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
+              {% if publication.journal %}
+                <span class="publication-journal">{{ publication.journal }}</span>
+              {% endif %}
+              {% if publication.pages %}
+                <span class="publication-pages">{{ publication.pages }}</span>
+              {% endif %}
+              {% if publication.source %}
+                <span class="publication-source">{{ publication.source }}</span>
+              {% endif %}
+              {% if publication.year %}
+                <span class="publication-year">{{ publication.year }}</span>
+              {% endif %}
+              {% if publication.pdf %}
+                <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
+              {% endif %}
+              {% if publication.doi %}
+                <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
+              {% endif %}
+              {% if publication.altmetric_doi %}
+                <div class="altmetric-embed" data-badge-type="1" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </div>
