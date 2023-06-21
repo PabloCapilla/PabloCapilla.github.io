@@ -1,7 +1,21 @@
+.splash-image {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white; /* Optional: Add a background color to the splash image for better visibility */
+}
+
+.splash-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .publications-list {
   max-width: 960px; /* Adjust the value as per your preference */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px; /* Adjust the value as per your preference */
-  padding-right: 20px; /* Adjust the value as per your preference */
+  padding-left: 25px; /* Adjust the value as per your preference */
+  padding-right: 25px; /* Adjust the value as per your preference */
 }

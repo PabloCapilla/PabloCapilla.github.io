@@ -1,4 +1,4 @@
-preprints:
+pre-prints:
   - id: 18
     title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
     authors:
@@ -8,7 +8,7 @@ preprints:
       - Branston C.
       - Carlon E.
       - Boonekamp J.
-      - Dominoni D.
+      - Dominoni D. M.
     year: 2023
     source: "bioRxiv"
     doi: "10.1101/2023.01.05.522710"
@@ -19,11 +19,21 @@ preprints:
       - Womack R. J.
       - Capilla-Lasheras P.
       - McGlade C. L. O.
-      - Dominoni D.
+      - Dominoni D. M.
       - Helm B.
     year: 2023
     source: "bioRxiv"
     doi: "10.1101/2022.07.01.498449"
+
+  - id: 16
+    title: "Mothers front-load their investment to the egg stage when helped in a wild cooperative bird"
+    authors:
+      - Capilla-Lasheras P.
+      - Wilson A.
+      - Young A. J.
+    year: 2023
+    source: "bioRxiv"
+    doi: "10.1101/2021.11.11.468195"
 
 papers:
   - id: 15
@@ -36,7 +46,11 @@ papers:
       - Isaksson C.
       - Watson H.
     year: 2023
-    journal: "accepted"
+    journal: " "
+    pages: " "
+    pdf: " "
+    doi: " "
+    altmetric_doi: " "
 
   - id: 14
     title: "Circadian rhythms of hosts and their gut microbiomes: implications for animal physiology and ecology"
@@ -52,6 +66,7 @@ papers:
     pages: "37, 476-487"
     pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf"
     doi: "10.1111/1365-2435.14255"
+    altmetric_doi: "10.1111/1365-2435.14255"
 
   - id: 13
     title: "A global meta-analysis reveals higher variation in breeding phenology in urban birds than in their non-urban neighbours"
@@ -85,3 +100,172 @@ papers:
     pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf"
     doi: "10.1016/j.tree.2021.09.009"
     altmetric_doi: "10.1016/j.tree.2021.09.009"
+
+  - id: 11
+    title: "Social dominance and rainfall predict telomere dynamics in a cooperative arid-zone bird"
+    authors:
+      - Wood E.
+      - Capilla-Lasheras P.
+      - Cram D.
+      - Walker L.
+      - York J.
+      - Lange A.
+      - Hamilton P.
+      - Tyler C.
+      - Young A. J.
+    year: 2022
+    journal: "Molecular Ecology"
+    pages: "31, 6141-6154"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Molecular Ecology - Wood.pdf"
+    doi: "10.1111/mec.15868"
+    altmetric_doi: "10.1111/mec.15868"
+
+  - id: 10
+    title: "Weaker selection on timing of breeding and clutch size in urban blue tits compared to non-urban counterparts, but not in great tits"
+    authors:
+      - Branston C. J.
+      - Capilla-Lasheras P.
+      - Pollock C. J.
+      - Griffiths K.
+      - White S.
+      - Dominoni D. M.
+    year: 2021
+    journal: "Behavioural Ecology and Sociobiology"
+    pages: "75, 155"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 -  Behavioral Ecology and Sociobiology - Branston.pdf"
+    doi: "10.1007/s00265-021-03096-z"
+    altmetric_doi: "10.1007/s00265-021-03096-z"
+
+  - id: 9
+    title: "Longitudinal evidence that older parents produce offspring with longer telomeres in a wild social bird"
+    authors:
+      - Brown A.
+      - Wood E.
+      - Capilla-Lasheras P.
+      - Harrison X.
+      - Young A. J.
+    year: 2021
+    journal: "Biology Letters"
+    pages: "17, 20210409"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Biology Letters - Brown.pdf"
+    doi: "10.1098/rsbl.2021.0409"
+    altmetric_doi: "10.1098/rsbl.2021.0409"
+
+  - id: 8
+    title: "Altruistic bet-hedging and the evolution of cooperation in a Kalahari bird"
+    authors:
+      - Capilla-Lasheras P.
+      - Harrison X.
+      - Wood E.
+      - Wilson A.
+      - Young A. J.
+    year: 2021
+    journal: "Science Advances"
+    pages: "7, eabe8980"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf"
+    doi: "10.1126/sciadv.abe8980"
+    altmetric_doi: "10.1126/sciadv.abe8980"
+
+  - id: 7
+    title: "Environmental conditions but not nest composition affect reproductive success in an urban bird"
+    authors:
+      - Capilla-Lasheras P.
+      - Bondía B.
+      - Aguirre J. I.
+    year: 2021
+    journal: "Ecology & Evolution"
+    pages: "11, 3084-3092"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf"
+    doi: "10.1002/ece3.7234"
+    altmetric_doi: "10.1002/ece3.7234"
+
+  - id: 6
+    title: "Bacterial ageing in the absence of external stressors"
+    authors:
+      - Łapińska U.
+      - Glover G.
+      - Capilla-Lasheras P.
+      - Young A. J.
+      - Pagliara S.
+    year: 2019
+    journal: "Philosophical Transactions of the Royal Society B"
+    pages: "374, 20180442"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2019 - Philosophical Transactions of the Royal Society B - Łapińska.pdf"
+    doi: "10.1098/rstb.2018.0442"
+    altmetric_doi: "10.1098/rstb.2018.0442"
+
+  - id: 5
+    title: "Identification of novel targets for host-directed therapeutics against intracellular Staphylococcus aureus"
+    authors:
+      - Bravo-Santano N.
+      - Capilla-Lasheras P.
+      - Mateos L. M.
+      - Calle Y.
+      - Behrends V.
+      - Letek M.
+    year: 2019
+    journal: "Scientific Reports"
+    pages: "39, 15435"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2019 - Scientific Repots - Bravo-Santano.pdf"
+    doi: "10.1038/s41598-019-51894-3"
+    altmetric_doi: "10.1038/s41598-019-51894-3"
+
+  - id: 4
+    title: "incR: a new R package to analyse incubation behaviour"
+    authors:
+      - Capilla-Lasheras P.
+    year: 2018
+    journal: "Journal of Avian Biology"
+    pages: "49, e01710"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2018 - Journal of Avian Biology - Capilla‐Lasheras.pdf"
+    doi: "10.1111/jav.01710"
+    altmetric_doi: "10.1111/jav.01710"
+
+  - id: 3
+    title: "‘Green incubation’: avian offspring benefit from aromatic nest herbs through improved parental incubation behaviour"
+    authors:
+      - Gwinner H.
+      - Capilla-Lasheras P.
+      - Cooper C.
+      - Helm B.
+    year: 2018
+    journal: "Proceedings of the Royal Society B"
+    pages: "285, 20180376"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2018 - Proceedings of the Royal Society B - Gwinner.pdf"
+    doi: "10.1098/rspb.2018.0376"
+    altmetric_doi: "10.1098/rspb.2018.0376"
+
+  - id: 2
+    title: "Integrated behavioural and stable isotope data reveal altered diet linked to low breeding success in urban-dwelling blue tits (Cyanistes caeruleus)"
+    authors:
+      - Pollock C. J.
+      - Capilla-Lasheras P.
+      - McGill R. A. R.
+      - Helm B.
+      - Dominoni D. M.
+    year: 2017
+    journal: "Scientific Reports"
+    pages: "7, 5014"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2017 - Scientific Reports - Pollock.pdf"
+    doi: "10.1038/s41598-017-04575-y"
+    altmetric_doi: "10.1038/s41598-017-04575-y"
+
+  - id: 1
+    title: "Elevated immune gene expression is associated with poor reproductive success of urban blue tits"
+    authors:
+      - Capilla-Lasheras P.
+      - Dominoni D. M.
+      - Babayan S. A.
+      - O’Shaughnessy P. J.
+      - Mladenova M.
+      - Woodford L.
+      - Pollock C. J.
+      - Barr T.
+      - Baldini F.
+      - Helm B.
+    year: 2017
+    journal: "Frontiers in Ecology & Evolution"
+    pages: "5, 64"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2017 - Frontiers in Ecology and Evolution - Capilla-Lasheras.pdf"
+    doi: "10.3389/fevo.2017.00064"
+    altmetric_doi: "10.3389/fevo.2017.00064"
