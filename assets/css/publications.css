@@ -19,3 +19,32 @@
   padding-left: 25px; /* Adjust the value as per your preference */
   padding-right: 25px; /* Adjust the value as per your preference */
 }
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between the buttons as needed */
+}
+
+/* Custom styles for the PDF button */
+.publication-pdf-button,
+.publication-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  outline: 1px solid black;
+  background-color: #eeeeee;
+  color: #444444;
+  padding: 8px 16px;
+  border-radius: 5px;
+  height: 20px;
+  width: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.publication-pdf-button:hover,
+.publication-button:hover {
+  background-color: #444444;
+  color: #ffffff;
+}
