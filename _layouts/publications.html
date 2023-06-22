@@ -61,11 +61,11 @@ layout: default
         {% if publication.pdf %}
         <div class="button-container">
           <a href="{{ publication.pdf }}" class="publication-pdf-button" target="_blank">PDF</a>
+        </div>
         {% endif %}
         {% if publication.doi %}
           <a href="https://doi.org/{{ publication.doi }}" class="publication-button" target="_blank">DOI</a>
         {% endif %}
-        </div>
         {% if publication.altmetric_doi %}
           <div class="publication-altmetric">
             <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
@@ -118,10 +118,10 @@ layout: default
             <div class="button-container">
             <a href="{{ publication.pdf }}" class="publication-pdf-button" target="_blank">PDF</a>
           {% endif %}
+            </div>
           {% if publication.doi %}
             <a href="https://doi.org/{{ publication.doi }}" class="publication-button" target="_blank">DOI</a>
           {% endif %}
-            </div>
           {% if publication.altmetric_doi %}
             <div class="publication-altmetric">
               <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
