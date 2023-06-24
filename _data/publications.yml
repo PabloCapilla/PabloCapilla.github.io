@@ -85,6 +85,8 @@ papers:
     pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf"
     doi: "10.1111/ele.14099"
     altmetric_doi: "10.1111/ele.14099"
+    code_doi: "10.5281/zenodo.7010687"
+    data_doi: "10.5281/zenodo.7010687"
 
   - id: 12
     title: "Phenotypic variation in urban environments: proximate causes and evolutionary implications"

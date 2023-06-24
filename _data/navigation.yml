@@ -1,14 +1,10 @@
 main:
-  #- title: "Welcome"
-#    url: /welcome/
-#  - title: "Urban gut microbiomes"
-  #  url: /urban_gut_microbiomes/
-  #- title: "Bird migrationHuman effects on bird migration - The Scops Owl Project"
-#    url: /the_scops_owl_project/
-#  - title: "Sparrow weavers"
-#    url: /sparrow_weavers/
+  - title: "Welcome"
+    url: /welcome/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
-    url: /papers/
+    url: /publications/
     output: true
   - title: "Ethics in Research"
     url: "/ethics/"

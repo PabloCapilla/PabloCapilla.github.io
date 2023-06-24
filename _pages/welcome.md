@@ -3,22 +3,6 @@ permalink: /welcome/
 title: "Welcome"
 layout: single
 author_profile: true
-
-feature_row:
-  - image_path: /assets/images/test.png
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/test.png
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/test.png
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 **Welcome to Pablo Capilla-Lasheras’ research website**
@@ -30,5 +14,3 @@ Environmental conditions on Earth are drastically changing as a direct result of
 You can find out more about my main research projects and publications using the tabs above. Enjoy!
 
 If you’re keen to collaborate just drop me an email.
-
-{% include feature_row %}

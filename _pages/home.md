@@ -13,24 +13,24 @@ author_profile: false
 feature_row:
   - image_path: /assets/images/test.png
     alt: " "
-    title: "TITLE"
-    excerpt: "Mdown text"
-    url: "PabloCapilla.github.io/welcome"
+    title: " "
+    excerpt: " "
+    url: "/welcome/"
     btn_label: "Welcome"
     btn_class: "btn--inverse"
   - image_path: /assets/images/test2.png
     alt: " "
-    title: "Research"
+    title: " "
     excerpt: " "
-    url: "PabloCapilla.github.io/research"
+    url: "/research/"
     btn_label: "Research"
-    btn_class: "btn--info"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/test2.png
-    title: "Publications"
+    title: " "
     excerpt: " "
-    url: "PabloCapilla.github.io/papers"
+    url: "/publications/"
     btn_label: "Publications"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row %}

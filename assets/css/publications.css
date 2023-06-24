@@ -26,14 +26,13 @@
 }
 
 /* Custom styles for the PDF button */
-.publication-pdf-button,
 .publication-button {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   outline: 1px solid black;
-  background-color: #eeeeee;
+  background-color: #F7F9F9;
   color: #444444;
   padding: 8px 16px;
   border-radius: 5px;
@@ -41,10 +40,17 @@
   width: 50px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  font-family: "Segoe UI", sans-serif; /* Replace "Arial" with your desired font */
 }
 
-.publication-pdf-button:hover,
 .publication-button:hover {
   background-color: #444444;
   color: #ffffff;
+}
+
+.publication-altmetric {
+  float: right;
+  margin-left: 10px;
+  margin-top: -80px; /* Adjust the value as per your preference */
+  margin-right: -75px; /* Adjust the value as per your preference */
 }
