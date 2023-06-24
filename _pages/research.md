@@ -3,6 +3,7 @@ permalink: /research/
 title: "Research"
 layout: single
 author_profile: false
+classes: wide
 
 feature_row:
   - image_path: /assets/images/test.png

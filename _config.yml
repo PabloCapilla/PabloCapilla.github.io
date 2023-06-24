@@ -60,32 +60,33 @@ plugins:
 author:
   name   : "Pablo Capilla-Lasheras"
   avatar : "/assets/images/profile_photo.jpg"
-  bio    : "BIO test"
+  bio    :
   links:
-      - label: "E-mail"
-        icon: "fas fa-fw fa-envelope-square"
-        url: "mailto: pacapilla@gmail.com"
-      - label: "Website"
-        icon: "fas fa-fw fa-link"
-        url: "https://pablocapilla.github.io/"
-      - label: "Twitter"
-        icon: "fab fa-fw fa-twitter-square"
-        url: "https://twitter.com/p_capi"
-      - label: "GitHub"
-        icon: "fab fa-fw fa-github"
-        url: "https://github.com/PabloCapilla"
-
-footer:
-  links:
-    - label: "E-mail"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto: pacapilla@gmail.com"
+    - label: "Google Scholar Profile"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=5JMTO-kAAAAJ&hl=en"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/p_capi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PabloCapilla"
+    - label: "E-mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: pacapilla@gmail.com"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/p_capi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/PabloCapilla"
+    - label: "E-mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: pacapilla@gmail.com"
+
 
 defaults:
   # _posts
