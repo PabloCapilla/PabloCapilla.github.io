@@ -1,11 +1,11 @@
 ---
 permalink: /welcome/
-title: "Welcome"
+title: ""
 layout: single
 author_profile: true
 ---
 
-**Welcome to Pablo Capilla-Lasheras’ research website**
+# Welcome to Pablo Capilla-Lasheras’ research website
 
 I am an Evolutionary Ecologist at the University of Glasgow. My research focusses on the study of animal responses to human-induced environmental change. I ask both evolutionary and mechanistic questions, using correlative and experimental approaches in the field and lab.
 
