@@ -18,7 +18,7 @@ feature_row:
     url: "/welcome/"
     btn_label: "Welcome"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/test2.png
+  - image_path: /assets/images/test.png
     alt: " "
     title: " "
     excerpt: " "

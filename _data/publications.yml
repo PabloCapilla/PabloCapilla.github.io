@@ -1,5 +1,5 @@
 pre-prints:
-  - id: 18
+  - id: 19
     title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
     authors:
       - Pitt M. D.
@@ -13,19 +13,7 @@ pre-prints:
     source: "bioRxiv"
     doi: "10.1101/2023.01.05.522710"
 
-  - id: 17
-    title: "Reproductive fitness is associated with female chronotype in a songbird"
-    authors:
-      - Womack R. J.
-      - Capilla-Lasheras P.
-      - McGlade C. L. O.
-      - Dominoni D. M.
-      - Helm B.
-    year: 2023
-    source: "bioRxiv"
-    doi: "10.1101/2022.07.01.498449"
-
-  - id: 16
+  - id: 18
     title: "Mothers front-load their investment to the egg stage when helped in a wild cooperative bird"
     authors:
       - Capilla-Lasheras P.
@@ -36,6 +24,36 @@ pre-prints:
     doi: "10.1101/2021.11.11.468195"
 
 papers:
+  - id: 17
+    title: "Experimental light at night explains differences in activity onset between urban and forest Great tits"
+    authors:
+      - McGlade C. L. O.
+      - Capilla-Lasheras P.
+      - Womack R. J.
+      - Helm B.
+      - Dominoni D. M.
+    year: 2023
+    journal: "Accepted"
+    pages: " "
+    pdf: " "
+    doi: " "
+    altmetric_doi: " "
+
+  - id: 16
+    title: "Reproductive fitness is associated with female chronotype in a songbird"
+    authors:
+      - Womack R. J.
+      - Capilla-Lasheras P.
+      - McGlade C. L. O.
+      - Dominoni D. M.
+      - Helm B.
+    year: 2023
+    journal: "Accepted"
+    pages: " "
+    pdf: " "
+    doi: " "
+    altmetric_doi: " "
+
   - id: 15
     title: "Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach"
     authors:
@@ -46,7 +64,7 @@ papers:
       - Isaksson C.
       - Watson H.
     year: 2023
-    journal: " "
+    journal: "Accepted"
     pages: " "
     pdf: " "
     doi: " "
