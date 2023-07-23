@@ -7,8 +7,8 @@ header:
   overlay_image: /assets/images/test2.png
   actions:
     - label: "Check out the latest publication!"
-      url:
-excerpt: Test caption
+      url: /publications/
+excerpt: "Pablo Capilla-Lasheras' research"
 author_profile: false
 feature_row:
   - image_path: /assets/images/test.png

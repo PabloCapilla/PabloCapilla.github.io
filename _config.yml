@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: en-GB
-title: "TITLE"
+title: "Ecology and Evolution in an Anthropogenic World"
 subtitle: "Pablo Capilla-Lasheras' research"
 email: pacapilla@gmail.com
 description:
