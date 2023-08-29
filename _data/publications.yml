@@ -33,26 +33,30 @@ papers:
       - Helm B.
       - Dominoni D. M.
     year: 2023
-    journal: "Accepted"
-    pages: " "
+    journal: "Biology Letters"
+    pages: "in press"
     pdf: " "
-    doi: " "
-    altmetric_doi: " "
+    doi: "10.1098/rsbl.2023.0194"
+    altmetric_doi: "10.1098/rsbl.2023.0194"
+    code_doi: "10.5281/zenodo.8169333"
+    data_doi: "10.5281/zenodo.8169333"
 
   - id: 16
     title: "Reproductive fitness is associated with female chronotype in a songbird"
     authors:
-      - Womack R. J.
-      - Capilla-Lasheras P.
+      - Womack R. J. (shared first authorship)
+      - Capilla-Lasheras P. (shared first authorship)
       - McGlade C. L. O.
       - Dominoni D. M.
       - Helm B.
     year: 2023
-    journal: "Accepted"
-    pages: " "
+    journal: "Animal Behaviour"
+    pages: "in press"
     pdf: " "
-    doi: " "
-    altmetric_doi: " "
+    doi: "10.1016/j.anbehav.2023.08.018"
+    altmetric_doi: "10.1016/j.anbehav.2023.08.018"
+    code_doi: "10.5281/zenodo.7967106"
+    data_doi: "10.5281/zenodo.7967106"
 
   - id: 15
     title: "Urbanisation impacts plumage colouration in a songbird across Europe: evidence from a correlational, experimental, and meta-analytical approach"
@@ -64,11 +68,11 @@ papers:
       - Isaksson C.
       - Watson H.
     year: 2023
-    journal: "Accepted"
-    pages: " "
-    pdf: " "
-    doi: " "
-    altmetric_doi: " "
+    journal: "Journal of Animal Ecology"
+    pages: "00, 1-13"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Journal of Animal Ecology - Salmon.pdf"
+    doi: "10.1111/1365-2656.13982"
+    altmetric_doi: "10.1111/1365-2656.13982"
 
   - id: 14
     title: "Circadian rhythms of hosts and their gut microbiomes: implications for animal physiology and ecology"
