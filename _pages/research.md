@@ -5,28 +5,26 @@ layout: single
 author_profile: false
 classes: wide
 
-feature_row:
-  - image_path: /assets/images/test.png
+gallery:
+  - url: /assets/images/MICROBIOMES
+    image_path: /assets/images/MICROBIOMES
     alt: "placeholder image 1"
     title: "Causes and consequences of variation in urban gut microbiomes"
-    excerpt: ""
-    url: /urban_gut_microbiomes/
-    btn_label: "Read More"
-  - image_path: /assets/images/test.png
+  - url: /assets/images/research/autillo.jpg
+    image_path: /assets/images/research/autillo.jpg
     alt: "placeholder image 2"
-    title: "Animal migration in an anthropogenic world"
-    excerpt: "The Scops Owl Project"
-    url: /the_scops_owl_project/
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/test.png
-    title: "Cooperation in an unpredictable world"
-    excerpt: "The white-browed sparrow weaver project"
-    btn_label: "Read More"
+    title: "Family of scops owl in Santander city (Spain), almost ready to travel to Africa"
+  - url: /assets/images/research/wbsw.jpg
+    image_path: /assets/images/research/wbsw.jpg
+    alt: "placeholder image 3"
+    title: "White-browed sparrow weaver colony in Tswalu"
+
 ---
 
-During my PhD research, I investigated the benefits and costs of cooperation in unpredictable  environments, integrating long-term ecological, behavioural and life history datasets, animal tracking and genomics using the [incredible white-browed sparrow weavers](http://www.animalsocieties.org/sparrowweaverproject).
+My research tries to improve the understanding of how human-induced environmental change affects animal ecology and evolution. I combine the study of behavioural traits (e.g., circadian rhythms, migration, and cooperation) and physiological traits (e.g., host-associated microbiome dynamics) to gain insights on fundamental evolutionary ecology and applied biodiversity conservation, wild animal welfare and human health.
 
-Then, I am applying this background to contribute towards increasing our understanding of animal responses to  human-induced environmental change. Environmental conditions on Earth are drastically changing as a direct result of human activity on the planet. From a fundamental evolutionary perspective, human-induced environmental change is extremely interesting as it creates new opportunities for life to adapt to and where the mechanism of evolution can be studied in real time. I strive to connect fundamental evolutionary research and applied research, seeking opportunities where my research can be translated to biodiversity conservation, wild animal welfare or informed human public health. In this context, I have started two research lines: one studying the causes and consequences of variation in bird gut microbiomes in urban environments, and a second one assessing how anthropogenic factors affect long-distance migration.
+I was a PhD student at the incredible [white-browed sparrow weaver project](http://www.animalsocieties.org/sparrowweaverproject), before starting a postdoctoral position at the University of Glasgow to investigate how urbanisation affects daily patterns of activity and physiology. I have recently launched the Scops Owl project, in collaboration with Prof Barbara Helm at the Swiss Institute of Ornithology, to investigate how human activity on the planet affects long-distance migration and host-associated microbiome dynamics.
 
-{% include feature_row %}
+If you would like to hear from research updates, the easiest way is probably to follow me on [Twitter](https://twitter.com/p_capi). Also, check the [publications page](https://pablocapilla.github.io/publications/).
+
+{% include gallery %}
