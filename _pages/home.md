@@ -18,7 +18,7 @@ feature_row:
     url: "/welcome/"
     btn_label: "Welcome"
     btn_class: "btn--inverse"
-    image_style: "width: 50px; height: 25px;"  # Add this line for inline CSS
+    image_width: "300px"
   - image_path: /assets/images/research_image.jpg
     alt: " "
     title: " "
@@ -26,14 +26,14 @@ feature_row:
     url: "/research/"
     btn_label: "Research"
     btn_class: "btn--inverse"
-    image_style: "width: 50px; height: auto;"  # Add this line for inline CSS
+    image_width: "100px"
   - image_path: /assets/images/pubs_image-1.jpg
     title: " "
     excerpt: " "
     url: "/publications/"
     btn_label: "Publications"
     btn_class: "btn--inverse"
-    image_style: "width: 50px; height: auto;"  # Add this line for inline CSS
+    image_width: "50px"
 ---
 
 **Welcome!!**
