@@ -27,6 +27,11 @@ html {
 
 /* Custom CSS to set the same dimensions for feature row images */
 .feature-row img {
-  width: 500px; /* Adjust the width to your desired size */
-  height: auto; /* Maintain aspect ratio */
+  width: 10px; /* Adjust the width to your desired size */
+  height: 10px; /* Maintain aspect ratio */
+}
+
+.archive__item-teaser img {
+    max-width: 100%;
+    max-height: 100%;
 }

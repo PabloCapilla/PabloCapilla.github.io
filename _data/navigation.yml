@@ -4,3 +4,5 @@ main:
   - title: "Publications"
     url: /publications/
     output: true
+  - title: "Bio"
+    url: /bio/
