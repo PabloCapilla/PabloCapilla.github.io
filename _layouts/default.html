@@ -8,6 +8,8 @@
     {% include head/custom.html %}
 
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <link rel="stylesheet" href="{{ '/assets/css/main.scss' | relative_url }}" />
+
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -33,6 +35,16 @@
     </div>
 
     {% include scripts.html %}
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var featureImages = document.querySelectorAll(".feature-row img");
+        featureImages.forEach(function (img) {
+          img.style.width = "300px"; // Adjust the width as needed
+          img.style.height = "auto";
+        });
+      });
+    </script>
 
   </body>
 </html>

@@ -24,3 +24,11 @@ html {
     font-size: 16px; // change to whatever
   }
 }
+
+/* Custom CSS to set the same dimensions for feature row images */
+.feature-row .image-wrapper {
+  display: block;
+  width: 300px; /* Adjust the width to your desired size */
+  height: auto;
+  margin: 0 auto; /* Center the images if needed */
+}

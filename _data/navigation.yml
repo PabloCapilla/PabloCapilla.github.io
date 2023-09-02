@@ -1,10 +1,6 @@
 main:
-  - title: "Welcome"
-    url: /welcome/
   - title: "Research"
     url: /research/
   - title: "Publications"
     url: /publications/
     output: true
-  - title: "Ethics in Research"
-    url: "/ethics/"
