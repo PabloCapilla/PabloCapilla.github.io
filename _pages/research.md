@@ -3,7 +3,7 @@ permalink: /research/
 title: "Research"
 layout: single
 author_profile: false
-classes: wide
+#classes: wide
 
 gallery:
   - url: /assets/images/MICROBIOMES

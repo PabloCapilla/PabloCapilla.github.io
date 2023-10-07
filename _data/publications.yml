@@ -1,4 +1,33 @@
 pre-prints:
+  - id: 21
+    title: "Evolution of sex differences in cooperation: the role of trade-offs with dispersal"
+    authors:
+        - Capilla-Lasheras P.
+        - Bircher N.
+        - Brown A. M.
+        - Harrison X.
+        - Reed T.
+        - York J. E.
+        - Cram D. L.
+        - Rutz C.
+        - Walker L.
+        - Naguib M.
+        - Young A. J.
+    year: 2023
+    source: "bioRxiv"
+    doi: "10.1101/2023.09.13.557370"
+
+  - id: 20
+    title: "The impact of chemical pollution across major life transitions: a meta-analysis on oxidative stress in amphibians"
+    authors:
+      - Martin C.
+      - Capilla-Lasheras P.
+      - Monaghan P.
+      - Burraco P.
+    year: 2023
+    source: "bioRxiv"
+    doi: "10.1101/2023.09.04.556172"
+
   - id: 19
     title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
     authors:
@@ -13,17 +42,22 @@ pre-prints:
     source: "bioRxiv"
     doi: "10.1101/2023.01.05.522710"
 
+papers:
   - id: 18
-    title: "Mothers front-load their investment to the egg stage when helped in a wild cooperative bird"
+    title: "Mothers in a cooperatively breeding bird increase investment per offspring at the pre-natal stage when they will have more help with post-natal care"
     authors:
       - Capilla-Lasheras P.
       - Wilson A.
       - Young A. J.
     year: 2023
-    source: "bioRxiv"
-    doi: "10.1101/2021.11.11.468195"
+    journal: "PLOS Biology"
+    pages: "in press"
+    pdf: " "
+    doi: ""
+    altmetric_doi: " "
+    code_doi: " "
+    data_doi: " "
 
-papers:
   - id: 17
     title: "Experimental light at night explains differences in activity onset between urban and forest Great tits"
     authors:
@@ -34,8 +68,8 @@ papers:
       - Dominoni D. M.
     year: 2023
     journal: "Biology Letters"
-    pages: "in press"
-    pdf: " "
+    pages: "19, 20230194"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Biology Letters - McGlade.pdf"
     doi: "10.1098/rsbl.2023.0194"
     altmetric_doi: "10.1098/rsbl.2023.0194"
     code_doi: "10.5281/zenodo.8169333"
@@ -44,15 +78,15 @@ papers:
   - id: 16
     title: "Reproductive fitness is associated with female chronotype in a songbird"
     authors:
-      - Womack R. J. (shared first authorship)
-      - Capilla-Lasheras P. (shared first authorship)
+      - Womack R. J.*
+      - Capilla-Lasheras P.*
       - McGlade C. L. O.
       - Dominoni D. M.
       - Helm B.
     year: 2023
     journal: "Animal Behaviour"
-    pages: "in press"
-    pdf: " "
+    pages: "205, 65-78. * shared first authorship"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Animal Behaviour - Womack.pdf"
     doi: "10.1016/j.anbehav.2023.08.018"
     altmetric_doi: "10.1016/j.anbehav.2023.08.018"
     code_doi: "10.5281/zenodo.7967106"
@@ -69,7 +103,7 @@ papers:
       - Watson H.
     year: 2023
     journal: "Journal of Animal Ecology"
-    pages: "00, 1-13"
+    pages: "92, 1924-1936"
     pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Journal of Animal Ecology - Salmon.pdf"
     doi: "10.1111/1365-2656.13982"
     altmetric_doi: "10.1111/1365-2656.13982"
