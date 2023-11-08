@@ -21,10 +21,12 @@ gallery:
 
 ---
 
-My research tries to improve the understanding of how human-induced environmental change affects animal ecology and evolution. I combine the study of behavioural traits (e.g., circadian rhythms, migration, and cooperation) and physiological traits (e.g., host-associated microbiome dynamics) to gain insights on fundamental evolutionary ecology and applied biodiversity conservation, wild animal welfare and human health.
-
-I was a PhD student at the incredible [white-browed sparrow weaver project](http://www.animalsocieties.org/sparrowweaverproject), before starting a postdoctoral position at the University of Glasgow to investigate how urbanisation affects daily patterns of activity and physiology. I have recently launched the Scops Owl project, in collaboration with Prof Barbara Helm at the Swiss Institute of Ornithology, to investigate how human activity on the planet affects long-distance migration and host-associated microbiome dynamics.
-
-If you would like to hear from research updates, the easiest way is probably to follow me on [Twitter](https://twitter.com/p_capi). Also, check the [publications page](https://pablocapilla.github.io/publications/).
+My research aims to improve our understanding of how human-induced environmental change affects animal ecology and evolution. The main focus of my research is often on ecological causes and evolutionary consequences of **behavioural responses in anthropogenic environments**. However, I take an **integrative approach** including the understanding of the proximate mechanisms (e.g., physiological processes) and the consequences (e.g., for evolution, animal welfare or human health) of human-induced changes in aninmal behaviour.
 
 {% include gallery %}
+
+I am currently a postdoctoral researcher, working with [Davide Dominoni](https://www.davidedominoni.com/), at the [University of Glasgow](https://www.gla.ac.uk/schools/bohvm/staff/pablocapillalasheras/), studying (i) **circadian patterns of behavioural and physiological activity** in urban and non-urban passerine birds; and, (ii) anthropogenic effects on the **gut microbiomes** of wild birds and their consequences for adaptation to these environments and for animal welfare. I have recently launched the **Scops Owl project**, in collaboration with Prof Barbara Helm at the Swiss Institute of Ornithology, to investigate how human activity on the planet (in particular light pollution) affects long-distance migration and gut microbiome dynamics of Eurasian scops owls (_Otus scops_).
+
+Before starting my current postdoctoral position in Glasgow, I was extremely lucky to be a PhD student at the incredible [white-browed sparrow weaver project](http://www.animalsocieties.org/sparrowweaverproject).
+
+If you would like to hear from research updates, the easiest way is probably to follow me on [Twitter](https://twitter.com/p_capi). Also, check the [publications page](https://pablocapilla.github.io/publications/).
