@@ -52,11 +52,11 @@ papers:
     year: 2023
     journal: "PLOS Biology"
     pages: "21, e3002356"
-    pdf: ""
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - PLOS Biology - Capilla-Lasheras.pdf"
     doi: "10.1371/journal.pbio.3002356"
     altmetric_doi: "10.1371/journal.pbio.3002356"
     code_doi: "10.5281/zenodo.8385995"
-    data_doi: "10.5281/zenodo.8385995."
+    data_doi: "10.5281/zenodo.8385995"
 
   - id: 17
     title: "Experimental light at night explains differences in activity onset between urban and forest Great tits"
