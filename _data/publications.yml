@@ -1,21 +1,58 @@
 pre-prints:
-  - id: 21
+  - id: 23
     title: "Evolution of sex differences in cooperation: the role of trade-offs with dispersal"
     authors:
-        - Capilla-Lasheras P.
-        - Bircher N.
-        - Brown A. M.
-        - Harrison X.
-        - Reed T.
-        - York J. E.
-        - Cram D. L.
-        - Rutz C.
-        - Walker L.
-        - Naguib M.
-        - Young A. J.
-    year: 2023
+      - Capilla-Lasheras P.
+      - Bircher N.
+      - Brown A. M.
+      - Harrison X.
+      - Reed T.
+      - York J. E.
+      - Cram D. L.
+      - Rutz C.s
+      - Walker L.
+      - Naguib M.
+      - Young A. J.
+    year: 2024
     source: "bioRxiv"
     doi: "10.1101/2023.09.13.557370"
+
+papers:
+  - id: 22
+    title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
+    authors:
+      - Pitt M. D.
+      - Alhowiti N. S. S.
+      - Branston C.
+      - Carlon E.
+      - Boonekamp J.
+      - Dominoni D. M.
+      - Capilla-Lasheras P.
+    year: 2024
+    journal: "Journal of Animal Ecology"
+    pages: "291, 20241536"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Journal of Animal Ecology - Pitt.pdf"
+    doi: "10.1111/1365-2656.14171"
+    altmetric_doi: "10.1111/1365-2656.14171"
+    data_doi: "10.5061/dryad.3j9kd51tf"
+
+  - id: 21
+    title: "Architectural traditions in the structures built by cooperative weaver birds"
+    authors:
+      - Tello-Ramos M. C.
+      - Harper L.
+      - Tortora-Brayda I.
+      - Guillette L. M.
+      - Capilla-Lasheras P.
+      - Harrison X. A.
+      - Young A. J.
+      - Healy S. D.
+    year: 2024
+    journal: "Science"
+    pages: "385, 1004-1009"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Science - Tello-ramos.pdf"
+    doi: "10.1126/science.adn2573"
+    altmetric_doi: "10.1126/science.adn2573"
 
   - id: 20
     title: "The impact of chemical pollution across major life transitions: a meta-analysis on oxidative stress in amphibians"
@@ -24,25 +61,32 @@ pre-prints:
       - Capilla-Lasheras P.
       - Monaghan P.
       - Burraco P.
-    year: 2023
-    source: "bioRxiv"
-    doi: "10.1101/2023.09.04.556172"
+    year: 2024
+    journal: "Proceedings of the Royal Society B"
+    pages: "291, 20241536"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Proceedings Royal Society B - Martin.pdf"
+    doi: "10.1098/rspb.2024.1536"
+    altmetric_doi: "10.1098/rspb.2024.1536"
+    code_doi: "10.5281/zenodo.12746803"
+    data_doi: "10.5281/zenodo.12746803"
 
   - id: 19
-    title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
+    title: "The impact of urbanization on health depends on the health metric, life stage and level of urbanization: a global meta-analysis on avian species"
     authors:
-      - Pitt M. D.
+      - Reid R.
       - Capilla-Lasheras P.
-      - Alhowiti N. S. S.
-      - Branston C.
-      - Carlon E.
+      - Haddou Y.
       - Boonekamp J.
       - Dominoni D. M.
-    year: 2023
-    source: "bioRxiv"
-    doi: "10.1101/2023.01.05.522710"
+    year: 2024
+    journal: "Proceedings of the Royal Society B"
+    pages: "291, 20240617"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Proceedings Royal Society B - Reid.pdf"
+    doi: "10.1098/rspb.2024.0617"
+    altmetric_doi: "10.1098/rspb.2024.0617"
+    code_doi: "10.5281/zenodo.11208807"
+    data_doi: "10.5281/zenodo.11208807"
 
-papers:
   - id: 18
     title: "Mothers in a cooperatively breeding bird increase investment per offspring at the pre-natal stage when they will have more help with postnatal care"
     authors:

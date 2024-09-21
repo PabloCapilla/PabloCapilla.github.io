@@ -1,0 +1,44 @@
+.image-grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+  gap: 10px; /* Gap between images */
+}
+
+.image-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+  gap: 10px; /* Gap between images */
+}
+
+.image-item {
+  overflow: hidden; /* Ensure images don't overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-container {
+  display: flex;
+  justify-content: space-between; /* Ensure even spacing between the text and logo */
+  align-items: flex-start; /* Align the logo with the top of the text */
+  gap: 10px; /* Add a small gap between the text and the logo */
+}
+
+.overview-text {
+  #flex: 1; /* Allow the text to grow and fill available space */
+  text-align: justify;
+}
+
+.overview-logo {
+  flex-shrink: 0; /* Prevent the logo from shrinking */
+  float: right;
+  margin: 0 20px 20px 0;
+}
+
+.overview-logo img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  max-width: 170px; /* Adjust the logo width as needed */
+  height: auto; /* Maintain aspect ratio */
+}

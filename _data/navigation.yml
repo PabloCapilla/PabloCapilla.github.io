@@ -1,6 +1,8 @@
 main:
   - title: "Research"
     url: /research/
+  - title: "MIGRALIGHT"
+    url: /MIGRALIGHT/
   - title: "Publications"
     url: /publications/
     output: true
