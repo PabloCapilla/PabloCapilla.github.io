@@ -1,4 +1,13 @@
-pre-prints:
+#pre-prints:
+#  - id: 23
+#    title: "Evolution of sex differences in cooperation: the role of trade-offs with dispersal"
+#    authors:
+#      - Capilla-Lasheras P.
+#    year: 2024
+#    source: "bioRxiv"
+#    doi: "10.1101/2023.09.13.557370"
+
+papers:
   - id: 23
     title: "Evolution of sex differences in cooperation: the role of trade-offs with dispersal"
     authors:
@@ -14,10 +23,14 @@ pre-prints:
       - Naguib M.
       - Young A. J.
     year: 2024
-    source: "bioRxiv"
-    doi: "10.1101/2023.09.13.557370"
+    journal: "PLOS Biology"
+    pages: "22(10): e3002859"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - PLOS Biology - Capilla-Lasheras.pdf"
+    doi: "10.1371/journal.pbio.3002859"
+    altmetric_doi: "10.1371/journal.pbio.3002859"
+    code_doi: "10.5281/zenodo.13623047"
+    data_doi: "10.5281/zenodo.13623047"
 
-papers:
   - id: 22
     title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
     authors:

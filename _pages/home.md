@@ -42,7 +42,8 @@ news_section:
   <ul class="news-list">
     <li class="news-item">
       <h3>Project MIGRALIGHT Begins</h3>
-      <p>We have officially launched the MIGRALIGHT project, studying the effects of artificial light on migratory birds.</p>
+      <p>We have officially launched the <a href="https://pablocl.com/MIGRALIGHT/">MIGRALIGHT project</a>, studying the effects of urbanisation and artificial light on migratory birds.</p>
+      <p>The project is funded by a Marie Skłodowska-Curie Actions Global Fellowship and represents a collaboration between the <a href="https://www.vogelwarte.ch/en/">Swiss Ornithological Institute</a> and <a href="https://www.ebd.csic.es/en/node">Doñana Biological Station - CSIC</a> </p>
       <span class="news-date">August 1, 2024</span>
     </li>
   </ul>
