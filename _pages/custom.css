@@ -4,3 +4,7 @@
   margin-top: -20px; /* Adjust the value as per your preference */
   margin-right: -75px; /* Adjust the value as per your preference */
 }
+
+.hidden {
+  display: none;
+}

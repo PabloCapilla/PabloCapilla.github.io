@@ -9,6 +9,5 @@ Pablo Capilla-Lasheras:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://pablocapilla.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/p_capi"
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/pcapi.bsky.social"

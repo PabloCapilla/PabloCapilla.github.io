@@ -65,9 +65,9 @@ author:
     - label: "Google Scholar Profile"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=5JMTO-kAAAAJ&hl=en"
-    - label: "Twitter"
+    - label: "Bluesky"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/p_capi"
+      url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PabloCapilla"
@@ -77,16 +77,14 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/p_capi"
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PabloCapilla"
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto: pacapilla@gmail.com"
-
 
 defaults:
   # _posts
