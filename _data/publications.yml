@@ -1,11 +1,16 @@
-#pre-prints:
-#  - id: 23
-#    title: "Evolution of sex differences in cooperation: the role of trade-offs with dispersal"
-#    authors:
-#      - Capilla-Lasheras P.
-#    year: 2024
-#    source: "bioRxiv"
-#    doi: "10.1101/2023.09.13.557370"
+pre-prints:
+  - id: 24
+    title: "Urban effects on timing and variability of diel activity differ across passerine species and seasons"
+    authors:
+      - Capilla-Lasheras P.
+      - Branston C.
+      - Baker P.
+      - Cochrane C.
+      - Helm B.
+      - Dominoni D. M.
+    year: 2024
+    source: "bioRxiv"
+    doi: "10.1101/2024.12.19.629353"
 
 papers:
   - id: 23

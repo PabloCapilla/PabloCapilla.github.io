@@ -13,7 +13,7 @@ author_profile: false
 ## Overview
 <div class="overview-container">
   <div class="overview-text">
-  MIGRALIGHT aims to understand how human-induced environmental changes affect long-distance animal migration and the evolutionary consequences of these migratory changes. For these, we are monitoring the migration of multiple populations of scops owl (<em>Otus scops</em>) living in contrasting environments across a very wide geographical range. The project has been launched with support from the Swiss Ornithological Institute (<a href="https://www.vogelwarte.ch/en/">Vogelwarte</a>) and a Global Marie Skłodowska-Curie Action hosted at <a href="http://www.ebd.csic.es/en/inicio">Doñana Biological Station-CSIC</a> in Spain.
+  MIGRALIGHT aims to understand how human-induced environmental changes affect long-distance animal migration and the evolutionary consequences of these migratory changes. For these, we are monitoring the migration of multiple populations of scops owl (<em>Otus scops</em>) living in contrasting environments across a very wide geographical range. The project has been launched with support from the Swiss Ornithological Institute (<a href="https://www.vogelwarte.ch/en/">Vogelwarte</a>) and a Global Marie Skłodowska-Curie Action.
   </div>
   <div class="overview-logo">
     <img src="/assets/images/V1_Negro_HighRes.png" alt="Project Logo">
