@@ -11,3 +11,6 @@ Pablo Capilla-Lasheras:
       url: "https://pablocapilla.github.io/"
     - label: "Bluesky"
       url: "https://bsky.app/profile/pcapi.bsky.social"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/migralight/"

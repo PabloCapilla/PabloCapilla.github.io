@@ -78,6 +78,7 @@ author:
 footer:
   links:
     - label: "Bluesky"
+      icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -85,6 +86,10 @@ footer:
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto: pacapilla@gmail.com"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/migralight/"
+
 
 defaults:
   # _posts
