@@ -7,7 +7,7 @@ author_profile: false
 
 gallery:
   - url: /assets/images/research/wbsw2.jpg
-    image_path: assets/images/research/wbsw2.jpg
+    image_path: /assets/images/research/wbsw2.jpg
     alt: "placeholder image 1"
     title: "White-browed sparrow weaver in Tswalu"
   - url: /assets/images/research/wbsw.jpg
@@ -22,3 +22,5 @@ gallery:
 <h2 style="text-align: center;">TEAM</h2>
 Meet the team - under construction
 [bio](https://pablocapilla.github.io/bio/)
+
+{% include gallery caption="" %}

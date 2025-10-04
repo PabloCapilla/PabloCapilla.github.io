@@ -3,11 +3,11 @@ permalink: /research/
 title: ""
 layout: single
 author_profile: false
-#classes: wide
+classes: research-page
 
 gallery:
   - url: /assets/images/research/wbsw2.jpg
-    image_path: assets/images/research/wbsw2.jpg
+    image_path: /assets/images/research/wbsw2.jpg
     alt: "placeholder image 1"
     title: "White-browed sparrow weaver in Tswalu"
   - url: /assets/images/research/wbsw.jpg
@@ -19,8 +19,11 @@ gallery:
     alt: "placeholder image 3"
     title: "Family of scops owl in Santander city (Spain), almost ready to travel to Africa"
 ---
+
 <h2 style="text-align: center;">RESEARCH</h2>
 My research aims to understand how human-induced environmental change affects animal ecology and evolution. My main focus is often on ecological causes and evolutionary consequences of **behavioural responses in anthropogenic environments**. However, I take an **integrative approach** including the understanding of the proximate mechanisms (e.g., physiological processes) and the consequences (e.g., for evolution, animal welfare or human health) of human-induced changes in animal behaviour. I am currently a Global Marie Skłodowska-Curie Action Fellow working with Barbara Helm at the [Swiss Ornithological Institute (Vogelwarte)](https://www.vogelwarte.ch/en/) and Carles Vilà at the [Doñana Biological Station-CSIC](http://www.ebd.csic.es/en/inicio).
+
+{% include gallery caption="" %}
 
 During my fellowship, I am investigating human-induced changes in long-distance bird migration and their evolutionary consequences. If you are interested in how urbanisation, human-induced environmental change or artificial light at night affect long-distance animal migration, you can find out more about [**MIGRALIGHT** on its webpage](https://pablocapilla.github.io/MIGRALIGHT/) and on [social media](https://www.instagram.com/migralight/).
 

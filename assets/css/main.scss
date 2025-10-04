@@ -85,3 +85,21 @@ html {
   font-size: 0.9em;
   color: #888;
 }
+
+.layout--single.research-page .page {
+  max-width: none;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* centers the inner content horizontally */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.layout--single.research-page .page__inner-wrap {
+  max-width: 980px; /* your chosen text width */
+  width: 100%;
+}
+
+.layout--single.research-page .page__content {
+  max-width: 100%;
+}
