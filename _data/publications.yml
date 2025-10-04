@@ -1,5 +1,139 @@
-pre-prints:
+#pre-prints:
+#  - id: 25
+#    title: "Urban effects on timing and variability of diel activity differ across passerine species and seasons"
+#    authors:
+#      - Capilla-Lasheras P.
+#      - Branston C.
+#      - Cochrane C.
+#      - Helm B.
+#      - Dominoni D. M.
+#    year: 2024
+#    source: "bioRxiv"
+#    doi: "10.1101/2024.12.19.629353"
+#
+papers:
+  - id: 29
+    title: "Urbanisation is associated with changes in stable isotopes across multiple trophic levels"
+    authors:
+      - Navarro A. B.
+      - McGill R. A. R.
+      - Newton J.
+      - Branston C. J.
+      - Capilla-Lasheras P.
+      - Silveira L. F.
+      - Dominoni D. M.
+    year: 2025
+    journal: "Isotopes in Environmental and Health Studies"
+    pages: "1-18"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Isotopes in Environmental and Health Studies - Navarro.pdf"
+    doi: "10.1080/10256016.2025.2546139"
+    altmetric_doi: "10.1080/10256016.2025.2546139"
+
+  - id: 28
+    title: "Continental patterns of phenotypic variation along replicated urban gradients: a mega‐analysis"
+    authors:
+      - Thompson M. J.
+      - Martin J. G. A.
+      - Biard C.
+      - Bleu J.
+      - Branston C. J.
+      - Capilla‐Lasheras P.
+      - Dingemanse N. J.
+      - Dominoni D. M.
+      - Eens M.
+      - Eeva T.
+      - Evans K. L.
+      - Isaksson C.
+      - Liker A.
+      - Massemin S.
+      - Matthysen E.
+      - Mouchet A.
+      - Perret S.
+      - Senar J. C.
+      - Seress G.
+      - Szulkin M.
+      - Vincze E.
+      - Watson H.
+      - Réale D.
+      - Charmantier A.
+    year: 2025
+    journal: "Ecology Letters"
+    pages: "28, e70180"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Ecology Letters - Thompson.pdf"
+    doi: "doi.org/10.1111/ele.70180"
+    altmetric_doi: "doi.org/10.1111/ele.70180"
+    data_doi: "10.5061/dryad.r2280gbns"
+
+  - id: 27
+    title: "Partial night lighting may reduce the physiological impact of artificial light at night on captive zebra finches"
+    authors:
+      - Reid R. R.
+      - Dawson N.
+      - Duncan E.
+      - Gillespie R.
+      - Mitchell C.
+      - Branston C. J.
+      - Capilla-Lasheras P.
+      - Boonekamp J.
+      - Dominoni D. M.
+    year: 2025
+    journal: "Frontiers in Physiology"
+    pages: "16, 1592407"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Frontiers in Physiology - Reid.pdf"
+    doi: "10.3389/fphys.2025.1592407"
+    altmetric_doi: "10.3389/fphys.2025.1592407"
+    code_doi: "10.5281/zenodo.15011283"
+    data_doi: "10.5281/zenodo.15011283"
+
+  - id: 26
+    title: "Migratory microbiomes: the role of the gut microbiome in bird migration eco‐physiology"
+    authors:
+      - Capilla-Lasheras P.
+      - Risely A.
+    year: 2025
+    journal: "Journal of Avian Biology"
+    pages: "2, e03406"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Avian Biology - Capilla-Lasheras.pdf"
+    doi: "10.1111/jav.03406"
+    altmetric_doi: "10.1111/jav.03406"
+
+  - id: 25
+    title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
+    authors:
+      - Pitt M. D.
+      - Alhowiti N. S. S.
+      - Branston C.
+      - Carlon E.
+      - Boonekamp J.
+      - Dominoni D. M.
+      - Capilla-Lasheras P.
+    year: 2025
+    journal: "Journal of Animal Ecology"
+    pages: "94:368-378"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Animal Ecology - Pitt.pdf"
+    doi: "10.1111/1365-2656.14171"
+    altmetric_doi: "10.1111/1365-2656.14171"
+    data_doi: "10.5061/dryad.3j9kd51tf"
+
   - id: 24
+    title: "It pays to sit tight: stable night-time incubation increases hatching success in urban and forest great tits, Parus major"
+    authors:
+      - Capilla-Lasheras P.
+      - Womack R. J.
+      - McGlare C. L. O.
+      - Branston C. J.
+      - Dominoni D. M.
+      - Helm B.
+    year: 2025
+    journal: "Zoological Science"
+    pages: "1:144-152"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Zoological Science - Capilla-Lasheras.pdf"
+    doi: "10.2108/zs240063"
+    altmetric_doi: "10.2108/zs240063"
+    code_doi: "10.5281/zenodo.14264610"
+    data_doi: "10.5281/zenodo.14264610"
+
+  - id: 23
     title: "Urban effects on timing and variability of diel activity differ across passerine species and seasons"
     authors:
       - Capilla-Lasheras P.
@@ -8,12 +142,16 @@ pre-prints:
       - Cochrane C.
       - Helm B.
       - Dominoni D. M.
-    year: 2024
-    source: "bioRxiv"
-    doi: "10.1101/2024.12.19.629353"
+    year: 2025
+    journal: "Journal of Animal Ecology"
+    pages: "94:1088-1100"
+    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Animal Ecology - Capilla-Lasheras.pdf"
+    doi: "10.1111/1365-2656.70038"
+    altmetric_doi: "10.1111/1365-2656.70038"
+    code_doi: "10.5281/zenodo.14771635"
+    data_doi: "10.5281/zenodo.14771635"
 
-papers:
-  - id: 23
+  - id: 22
     title: "Evolution of sex differences in cooperation can be explained by trade-offs with dispersal"
     authors:
       - Capilla-Lasheras P.
@@ -35,24 +173,6 @@ papers:
     altmetric_doi: "10.1371/journal.pbio.3002859"
     code_doi: "10.5281/zenodo.13623047"
     data_doi: "10.5281/zenodo.13623047"
-
-  - id: 22
-    title: "Environmental constraints can explain clutch size differences between urban and forest blue tits (Cyanistes caeruleus): insights from an egg removal experiment"
-    authors:
-      - Pitt M. D.
-      - Alhowiti N. S. S.
-      - Branston C.
-      - Carlon E.
-      - Boonekamp J.
-      - Dominoni D. M.
-      - Capilla-Lasheras P.
-    year: 2024
-    journal: "Journal of Animal Ecology"
-    pages: "291, 20241536"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Journal of Animal Ecology - Pitt.pdf"
-    doi: "10.1111/1365-2656.14171"
-    altmetric_doi: "10.1111/1365-2656.14171"
-    data_doi: "10.5061/dryad.3j9kd51tf"
 
   - id: 21
     title: "Architectural traditions in the structures built by cooperative weaver birds"
