@@ -10,6 +10,7 @@ Pablo Capilla-Lasheras:
       icon: "fas fa-fw fa-link"
       url: "https://pablocapilla.github.io/"
     - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "Instagram"
       icon: "fab fa-instagram"

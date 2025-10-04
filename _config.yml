@@ -78,7 +78,7 @@ author:
 footer:
   links:
     - label: "Bluesky"
-      icon: "fab fa-bluesky"
+      icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
