@@ -41,10 +41,16 @@ news_section:
   <h2>{{ page.news_section.title }}</h2>
   <ul class="news-list">
     <li class="news-item">
+      <h3>Successful field campaign</h3>
+      <p>The MIGRALIGHT team completed another successful campaign of data and sample collection. Check the numbers of the 2025 field season <a href="https://www.instagram.com/p/DO-_Xo-iItQ/?utm_source=ig_web_copy_link&igsh=c2VzNzg1cWJoZmM4">here</a>. Our scops owls of study will be starting their autumn migration soon!</p>
+      <span class="news-date">September 1, 2025</span>
+    </li>
+    <li class="news-item">
       <h3>New paper on sex differences in cooperation</h3>
       <p>In this paper, recently published in PLoS Biology, we investigate the main hypotheses for the evolution of sex differences in cooperation. You can find the paper Open Access <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002859">here</a>.</p>
       <span class="news-date">October 24, 2024</span>
     </li>
+
     <li class="news-item">
       <h3>New Urban Ecology and Evolution paper published in the Journal of Animal Ecology</h3>
       <p>Differences in clutch size between birds living in anthropogenic and more pristine environments are commonly reported. However, we don't know why. Is this pattern an adaptive strategy to survive in anthropogenic habitats? Do these differences represent environmental constraints? In this paper, under the brilliant lead of <a href="https://www.gla.ac.uk/pgrs/markpitt/">Mark Pitt</a>, we investigate these questions. Find the paper <a href="https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2656.14171">here</a>.</p>

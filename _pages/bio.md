@@ -8,7 +8,7 @@ classes: wide
 
 <div class="bio-content">
   <div class="bio-text">
-    After growing up in the northeast of Spain, I moved to the UK in 2013, where after a short period learning the <em>art</em> of coffee brewing, I continued my academic career (summarised below):
+    After growing up in the northeast of Spain, I moved to the UK in 2013, where I started and developed my career for many years before moving to Switzerland (summarised below):
 
     <ul>
       <li><strong>08/2024 - Currently</strong>: Marie Skłodowska-Curie Actions Global Fellowship, working at the <a href="https://www.vogelwarte.ch/en/">Swiss Ornithological Institute (Vogelwarte)</a> (Switzerland). Go to <a href="https://www.pablocapilla.github.io/MIGRALIGHT">MIGRALIGHT</a> for info on the project.</li>
