@@ -3,10 +3,8 @@ main:
     url: /research/
   - title: "MIGRALIGHT"
     url: /MIGRALIGHT/
-  - title:
-    url: /Group
+  - title: Team
+    url: /team/
   - title: "Publications"
     url: /publications/
     output: true
-  - title: "Bio"
-    url: /bio/
