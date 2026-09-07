@@ -1,26 +1,34 @@
-<div>
-  <span class="publication-number">{{ forloop.index }}</span>
-  <span class="publication-title">{{ publication.title }}</span>
-  <span class="publication-authors">{{ publication.authors | join: ', ' }}</span>
-  {% if publication.journal %}
-    <span class="publication-journal">{{ publication.journal }}</span>
-  {% endif %}
-  {% if publication.pages %}
-    <span class="publication-pages">{{ publication.pages }}</span>
-  {% endif %}
-  {% if publication.source %}
-    <span class="publication-source">{{ publication.source }}</span>
-  {% endif %}
-  {% if publication.year %}
-    <span class="publication-year">{{ publication.year }}</span>
-  {% endif %}
-  {% if publication.pdf %}
-    <a href="{{ publication.pdf }}" class="publication-link">PDF</a>
-  {% endif %}
-  {% if publication.doi %}
-    <a href="https://doi.org/{{ publication.doi }}" class="publication-link">DOI</a>
-  {% endif %}
+{% assign publication = include.publication %}
+<li class="publication-item">
+  <div class="publication-item__number">
+    {% if include.number %}{{ include.number }}{% else %}{{ publication.year }}{% endif %}
+  </div>
+  <div class="publication-item__content">
+    <h3>{{ publication.title }}</h3>
+    <p class="publication-item__authors">
+      {% if publication.authors_text %}
+        {{ publication.authors_text | replace: "Capilla-Lasheras P.", "<strong>Capilla-Lasheras P.</strong>" }}
+      {% else %}
+        {% for author in publication.authors %}{% if author contains "Capilla" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {% endif %}
+    </p>
+    <p class="publication-item__citation">
+      {% if publication.journal %}<em>{{ publication.journal }}</em>{% elsif publication.source %}<em>{{ publication.source }}</em>{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %} ({{ publication.year }}).
+    </p>
+    <div class="publication-item__links">
+      {% assign pdf_url = publication.pdf | default: "" | replace: "http://PabloCapilla.github.io", "" | replace: "https://PabloCapilla.github.io", "" %}
+      {% assign doi = publication.doi | default: "" | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi.org/" %}
+      {% assign code_doi = publication.code_doi | default: "" | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi.org/" %}
+      {% assign data_doi = publication.data_doi | default: "" | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi.org/" %}
+      {% if pdf_url != "" %}<a href="{{ pdf_url | relative_url | uri_escape }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
+      {% if doi != "" %}<a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">DOI</a>{% endif %}
+      {% if code_doi != "" %}<a href="https://doi.org/{{ code_doi }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+      {% if data_doi != "" %}<a href="https://doi.org/{{ data_doi }}" target="_blank" rel="noopener noreferrer">Data</a>{% endif %}
+      {% if publication.url %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">View record</a>{% endif %}
+    </div>
+  </div>
   {% if publication.altmetric_doi %}
-    <div class="altmetric-embed" data-badge-type="1" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
+    {% assign altmetric_doi = publication.altmetric_doi | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi.org/" %}
+    <div class="publication-item__metric"><div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ altmetric_doi }}"></div></div>
   {% endif %}
-</div>
+</li>

@@ -1,17 +1,114 @@
-#pre-prints:
-#  - id: 25
-#    title: "Urban effects on timing and variability of diel activity differ across passerine species and seasons"
-#    authors:
-#      - Capilla-Lasheras P.
-#      - Branston C.
-#      - Cochrane C.
-#      - Helm B.
-#      - Dominoni D. M.
-#    year: 2024
-#    source: "bioRxiv"
-#    doi: "10.1101/2024.12.19.629353"
-#
+preprints:
+  - id: 1
+    title: "Effects of animal dormancy on oxidative stress, immune status, and glucocorticoids: a meta-analysis"
+    authors:
+      - Burraco P.
+      - Petrovic T. G.
+      - Capilla-Lasheras P.
+      - Prokic M.
+    year: 2025
+    source: "bioRxiv"
+    doi: "10.1101/2025.10.02.680078"
+
+research_outputs:
+  - id: 2
+    title: "GeoLocator Data Package: Scops Owl (MIGRALIGHT)"
+    authors_text: "Capilla-Lasheras P., Nussbaumer R., Avilés J. M., Benito A., Bustillo-de la Rosa D., Fernández Calvo I., Fuertes Marcos B., González Sánchez F., Hernández Cabello J., Ibáñez-Álamo J. D., Pardo de Santayana G., Parejo D., Uboldi A., Vilà C., Schmid B., Helm B."
+    year: 2026
+    source: "Zenodo dataset"
+    doi: "10.5281/zenodo.16795313"
+  - id: 1
+    title: "The evolution of cooperation in an arid-zone bird: bet-hedging, plasticity and constraints"
+    authors:
+      - Capilla-Lasheras P.
+    year: 2020
+    source: "Doctoral thesis, University of Exeter"
+    url: "https://ore.exeter.ac.uk/articles/thesis/The_evolution_of_cooperation_in_an_arid-zone_bird_bet-hedging_plasticity_and_constraints/29768294"
+
 papers:
+  - id: 35
+    title: "Multi-sensor tracking reveals the extent of nocturnal migration in landbirds"
+    authors_text: "Dufour P., Nussbaumer R., Doniol-Valcroze P., et al., including Capilla-Lasheras P."
+    year: 2026
+    journal: "Current Biology"
+    pages: "36(14), 3697-3706.e3"
+    doi: "10.1016/j.cub.2026.06.030"
+    altmetric_doi: "10.1016/j.cub.2026.06.030"
+
+  - id: 34
+    title: "Geolocation with a magnetic sensor"
+    authors:
+      - Nussbaumer R.
+      - Bächler E.
+      - Liechti F.
+      - Briedis M.
+      - Dufour P.
+      - Rime Y.
+      - Capilla-Lasheras P.
+      - Wong J. B.
+      - Holland R.
+      - Helm B.
+    year: 2026
+    journal: "Methods in Ecology and Evolution"
+    pages: "17(8), 2395-2407"
+    doi: "10.1111/2041-210X.70355"
+    altmetric_doi: "10.1111/2041-210X.70355"
+    code_doi: "10.5281/zenodo.19497391"
+
+  - id: 33
+    title: "Artificial light at night consistently impacts avian physiology and behaviour: a meta-analysis"
+    authors:
+      - Diaz-Palma S.
+      - Capilla-Lasheras P.
+      - Dominoni D.
+      - Cichoń M.
+      - Sudyka J.
+    year: 2026
+    journal: "Ecology Letters"
+    pages: "29(4), e70382"
+    doi: "10.1111/ele.70382"
+    altmetric_doi: "10.1111/ele.70382"
+
+  - id: 32
+    title: "Bridging the gap: improving methodologies for future avian microbiome research"
+    authors_text: "Davies C. S., Capilla-Lasheras P., Catelan-Carphio E., Corregidor-Castro A., Diez-Méndez D., Drobniak S. M., Drzewińska-Chańko J., Kohl K. D., Martínez-Renau E., Ramellini S., Richardson D. S., Ruuskanen S., Sutton A. O., Szulkin M., Troisi C. A., White J., Worsley S. F., Bodawatta K. H., Videvall E."
+    year: 2026
+    journal: "Journal of Avian Biology"
+    pages: "2026(2), e03594"
+    doi: "10.1002/jav.03594"
+    altmetric_doi: "10.1002/jav.03594"
+
+  - id: 31
+    title: "Native trees are related to advanced bird breeding phenology and increased reproductive success along an urban gradient"
+    authors:
+      - Branston C. J.
+      - Capilla-Lasheras P.
+      - Haugh C.
+      - Baker P. J.
+      - Reid R.
+      - Griffiths K.
+      - White S.
+      - Dominoni D. M.
+    year: 2026
+    journal: "Ecology"
+    pages: "107(1), e70294"
+    doi: "10.1002/ecy.70294"
+    altmetric_doi: "10.1002/ecy.70294"
+
+  - id: 30
+    title: "Nest composition of blue tits (Cyanistes caeruleus) along an urban gradient"
+    authors:
+      - Roy J.
+      - Branston C. J.
+      - Capilla-Lasheras P.
+      - Baker P. J.
+      - Dominoni D. M.
+    year: 2025
+    journal: "Avocetta"
+    pages: "49"
+    doi: "10.30456/avo.28965"
+    altmetric_doi: "10.30456/avo.28965"
+
   - id: 29
     title: "Urbanisation is associated with changes in stable isotopes across multiple trophic levels"
     authors:
@@ -25,7 +122,7 @@ papers:
     year: 2025
     journal: "Isotopes in Environmental and Health Studies"
     pages: "1-18"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Isotopes in Environmental and Health Studies - Navarro.pdf"
+    pdf: "/assets/pub_pdf/2025 - Isotopes in Environmental and Health Studies - Navarro.pdf"
     doi: "10.1080/10256016.2025.2546139"
     altmetric_doi: "10.1080/10256016.2025.2546139"
 
@@ -58,10 +155,10 @@ papers:
       - Charmantier A.
     year: 2025
     journal: "Ecology Letters"
-    pages: "28, e70180"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Ecology Letters - Thompson.pdf"
-    doi: "doi.org/10.1111/ele.70180"
-    altmetric_doi: "doi.org/10.1111/ele.70180"
+    pages: "28(7), e70180"
+    pdf: "/assets/pub_pdf/2025 - Ecology Letters - Thompson.pdf"
+    doi: "10.1111/ele.70180"
+    altmetric_doi: "10.1111/ele.70180"
     data_doi: "10.5061/dryad.r2280gbns"
 
   - id: 27
@@ -79,7 +176,7 @@ papers:
     year: 2025
     journal: "Frontiers in Physiology"
     pages: "16, 1592407"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Frontiers in Physiology - Reid.pdf"
+    pdf: "/assets/pub_pdf/2025 - Frontiers in Physiology - Reid.pdf"
     doi: "10.3389/fphys.2025.1592407"
     altmetric_doi: "10.3389/fphys.2025.1592407"
     code_doi: "10.5281/zenodo.15011283"
@@ -92,8 +189,8 @@ papers:
       - Risely A.
     year: 2025
     journal: "Journal of Avian Biology"
-    pages: "2, e03406"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Avian Biology - Capilla‐Lasheras.pdf"
+    pages: "2025(2), e03406"
+    pdf: "/assets/pub_pdf/2025 - Journal of Avian Biology - Capilla‐Lasheras.pdf"
     doi: "10.1111/jav.03406"
     altmetric_doi: "10.1111/jav.03406"
 
@@ -109,8 +206,8 @@ papers:
       - Capilla-Lasheras P.
     year: 2025
     journal: "Journal of Animal Ecology"
-    pages: "94:368-378"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Animal Ecology - Pitt.pdf"
+    pages: "94(3), 368-378"
+    pdf: "/assets/pub_pdf/2025 - Journal of Animal Ecology - Pitt.pdf"
     doi: "10.1111/1365-2656.14171"
     altmetric_doi: "10.1111/1365-2656.14171"
     data_doi: "10.5061/dryad.3j9kd51tf"
@@ -126,8 +223,8 @@ papers:
       - Helm B.
     year: 2025
     journal: "Zoological Science"
-    pages: "1:144-152"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Zoological Science - Capilla-Lasheras.pdf"
+    pages: "42(1), 144-152"
+    pdf: "/assets/pub_pdf/2025 - Zoological Science - Capilla-Lasheras.pdf"
     doi: "10.2108/zs240063"
     altmetric_doi: "10.2108/zs240063"
     code_doi: "10.5281/zenodo.14264610"
@@ -144,8 +241,8 @@ papers:
       - Dominoni D. M.
     year: 2025
     journal: "Journal of Animal Ecology"
-    pages: "94:1088-1100"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2025 - Journal of Animal Ecology - Capilla‐Lasheras.pdf"
+    pages: "94(5), 1088-1100"
+    pdf: "/assets/pub_pdf/2025 - Journal of Animal Ecology - Capilla‐Lasheras.pdf"
     doi: "10.1111/1365-2656.70038"
     altmetric_doi: "10.1111/1365-2656.70038"
     code_doi: "10.5281/zenodo.14771635"
@@ -168,7 +265,7 @@ papers:
     year: 2024
     journal: "PLOS Biology"
     pages: "22(10): e3002859"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - PLOS Biology - Capilla-Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2024 - PLOS Biology - Capilla-Lasheras.pdf"
     doi: "10.1371/journal.pbio.3002859"
     altmetric_doi: "10.1371/journal.pbio.3002859"
     code_doi: "10.5281/zenodo.13623047"
@@ -188,7 +285,7 @@ papers:
     year: 2024
     journal: "Science"
     pages: "385, 1004-1009"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Science - Tello-ramos.pdf"
+    pdf: "/assets/pub_pdf/2024 - Science - Tello-ramos.pdf"
     doi: "10.1126/science.adn2573"
     altmetric_doi: "10.1126/science.adn2573"
 
@@ -202,7 +299,7 @@ papers:
     year: 2024
     journal: "Proceedings of the Royal Society B"
     pages: "291, 20241536"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Proceedings Royal Society B - Martin.pdf"
+    pdf: "/assets/pub_pdf/2024 - Proceedings Royal Society B - Martin.pdf"
     doi: "10.1098/rspb.2024.1536"
     altmetric_doi: "10.1098/rspb.2024.1536"
     code_doi: "10.5281/zenodo.12746803"
@@ -219,7 +316,7 @@ papers:
     year: 2024
     journal: "Proceedings of the Royal Society B"
     pages: "291, 20240617"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2024 - Proceedings Royal Society B - Reid.pdf"
+    pdf: "/assets/pub_pdf/2024 - Proceedings Royal Society B - Reid.pdf"
     doi: "10.1098/rspb.2024.0617"
     altmetric_doi: "10.1098/rspb.2024.0617"
     code_doi: "10.5281/zenodo.11208807"
@@ -234,7 +331,7 @@ papers:
     year: 2023
     journal: "PLOS Biology"
     pages: "21, e3002356"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - PLOS Biology - Capilla-Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2023 - PLOS Biology - Capilla-Lasheras.pdf"
     doi: "10.1371/journal.pbio.3002356"
     altmetric_doi: "10.1371/journal.pbio.3002356"
     code_doi: "10.5281/zenodo.8385995"
@@ -251,7 +348,7 @@ papers:
     year: 2023
     journal: "Biology Letters"
     pages: "19, 20230194"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Biology Letters - McGlade.pdf"
+    pdf: "/assets/pub_pdf/2023 - Biology Letters - McGlade.pdf"
     doi: "10.1098/rsbl.2023.0194"
     altmetric_doi: "10.1098/rsbl.2023.0194"
     code_doi: "10.5281/zenodo.8169333"
@@ -268,7 +365,7 @@ papers:
     year: 2023
     journal: "Animal Behaviour"
     pages: "205, 65-78. * shared first authorship"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Animal Behaviour - Womack.pdf"
+    pdf: "/assets/pub_pdf/2023 - Animal Behaviour - Womack.pdf"
     doi: "10.1016/j.anbehav.2023.08.018"
     altmetric_doi: "10.1016/j.anbehav.2023.08.018"
     code_doi: "10.5281/zenodo.7967106"
@@ -286,7 +383,7 @@ papers:
     year: 2023
     journal: "Journal of Animal Ecology"
     pages: "92, 1924-1936"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Journal of Animal Ecology - Salmon.pdf"
+    pdf: "/assets/pub_pdf/2023 - Journal of Animal Ecology - Salmon.pdf"
     doi: "10.1111/1365-2656.13982"
     altmetric_doi: "10.1111/1365-2656.13982"
 
@@ -302,7 +399,7 @@ papers:
     year: 2023
     journal: "Functional Ecology"
     pages: "37, 476-487"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf"
+    pdf: "/assets/pub_pdf/2023 - Functional Ecology - Schmid.pdf"
     doi: "10.1111/1365-2435.14255"
     altmetric_doi: "10.1111/1365-2435.14255"
 
@@ -320,7 +417,7 @@ papers:
     year: 2022
     journal: "Ecology Letters"
     pages: "25, 2552-2570"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2022 - Ecology Letters - Capilla‐Lasheras.pdf"
     doi: "10.1111/ele.14099"
     altmetric_doi: "10.1111/ele.14099"
     code_doi: "10.5281/zenodo.7010687"
@@ -337,7 +434,7 @@ papers:
     year: 2022
     journal: "Trends in Ecology and Evolution"
     pages: "37, 171-182"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf"
+    pdf: "/assets/pub_pdf/2022 - Trends in Ecology and Evolution - Thompson.pdf"
     doi: "10.1016/j.tree.2021.09.009"
     altmetric_doi: "10.1016/j.tree.2021.09.009"
 
@@ -356,7 +453,7 @@ papers:
     year: 2022
     journal: "Molecular Ecology"
     pages: "31, 6141-6154"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2022 - Molecular Ecology - Wood.pdf"
+    pdf: "/assets/pub_pdf/2022 - Molecular Ecology - Wood.pdf"
     doi: "10.1111/mec.15868"
     altmetric_doi: "10.1111/mec.15868"
 
@@ -372,7 +469,7 @@ papers:
     year: 2021
     journal: "Behavioural Ecology and Sociobiology"
     pages: "75, 155"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 -  Behavioral Ecology and Sociobiology - Branston.pdf"
+    pdf: "/assets/pub_pdf/2021 -  Behavioral Ecology and Sociobiology - Branston.pdf"
     doi: "10.1007/s00265-021-03096-z"
     altmetric_doi: "10.1007/s00265-021-03096-z"
 
@@ -387,7 +484,7 @@ papers:
     year: 2021
     journal: "Biology Letters"
     pages: "17, 20210409"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Biology Letters - Brown.pdf"
+    pdf: "/assets/pub_pdf/2021 - Biology Letters - Brown.pdf"
     doi: "10.1098/rsbl.2021.0409"
     altmetric_doi: "10.1098/rsbl.2021.0409"
 
@@ -402,7 +499,7 @@ papers:
     year: 2021
     journal: "Science Advances"
     pages: "7, eabe8980"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2021 - Science Advances - Capilla-Lasheras.pdf"
     doi: "10.1126/sciadv.abe8980"
     altmetric_doi: "10.1126/sciadv.abe8980"
 
@@ -415,7 +512,7 @@ papers:
     year: 2021
     journal: "Ecology & Evolution"
     pages: "11, 3084-3092"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2021 - Ecology and Evolution - Capilla‐Lasheras.pdf"
     doi: "10.1002/ece3.7234"
     altmetric_doi: "10.1002/ece3.7234"
 
@@ -430,7 +527,7 @@ papers:
     year: 2019
     journal: "Philosophical Transactions of the Royal Society B"
     pages: "374, 20180442"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2019 - Philosophical Transactions of the Royal Society B - Łapińska.pdf"
+    pdf: "/assets/pub_pdf/2019 - Philosophical Transactions of the Royal Society B - Łapińska.pdf"
     doi: "10.1098/rstb.2018.0442"
     altmetric_doi: "10.1098/rstb.2018.0442"
 
@@ -446,7 +543,7 @@ papers:
     year: 2019
     journal: "Scientific Reports"
     pages: "39, 15435"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2019 - Scientific Repots - Bravo-Santano.pdf"
+    pdf: "/assets/pub_pdf/2019 - Scientific Repots - Bravo-Santano.pdf"
     doi: "10.1038/s41598-019-51894-3"
     altmetric_doi: "10.1038/s41598-019-51894-3"
 
@@ -457,7 +554,7 @@ papers:
     year: 2018
     journal: "Journal of Avian Biology"
     pages: "49, e01710"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2018 - Journal of Avian Biology - Capilla‐Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2018 - Journal of Avian Biology - Capilla‐Lasheras.pdf"
     doi: "10.1111/jav.01710"
     altmetric_doi: "10.1111/jav.01710"
 
@@ -471,7 +568,7 @@ papers:
     year: 2018
     journal: "Proceedings of the Royal Society B"
     pages: "285, 20180376"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2018 - Proceedings of the Royal Society B - Gwinner.pdf"
+    pdf: "/assets/pub_pdf/2018 - Proceedings of the Royal Society B - Gwinner.pdf"
     doi: "10.1098/rspb.2018.0376"
     altmetric_doi: "10.1098/rspb.2018.0376"
 
@@ -486,7 +583,7 @@ papers:
     year: 2017
     journal: "Scientific Reports"
     pages: "7, 5014"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2017 - Scientific Reports - Pollock.pdf"
+    pdf: "/assets/pub_pdf/2017 - Scientific Reports - Pollock.pdf"
     doi: "10.1038/s41598-017-04575-y"
     altmetric_doi: "10.1038/s41598-017-04575-y"
 
@@ -506,6 +603,6 @@ papers:
     year: 2017
     journal: "Frontiers in Ecology & Evolution"
     pages: "5, 64"
-    pdf: "http://PabloCapilla.github.io/assets/pub_pdf/2017 - Frontiers in Ecology and Evolution - Capilla-Lasheras.pdf"
+    pdf: "/assets/pub_pdf/2017 - Frontiers in Ecology and Evolution - Capilla-Lasheras.pdf"
     doi: "10.3389/fevo.2017.00064"
     altmetric_doi: "10.3389/fevo.2017.00064"

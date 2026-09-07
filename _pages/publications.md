@@ -3,7 +3,5 @@ permalink: /publications/
 title: "Publications"
 layout: publications
 author_profile: false
-classes: wide
+classes: publications-page
 ---
-
-{% include publications.html %}

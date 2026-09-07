@@ -4,6 +4,12 @@
 
 <!-- end custom head snippets -->
 
+{% if page.custom_css %}
+  {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {% endfor %}
+{% endif %}
+
 <style>
   {% if page.header.text_color %}
     .page__hero--overlay .page__title,

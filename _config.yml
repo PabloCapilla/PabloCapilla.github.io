@@ -14,14 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: en-GB
-title: "Behaviour, Ecology and Evolution in an anthropogenic world"
-subtitle: "Pablo Capilla-Lasheras' research"
+title: "Pablo Capilla-Lasheras"
+masthead_title: "Pablo Capilla-Lasheras"
+subtitle:
 email: pacapilla@gmail.com
-description:
+description: "Behavioural ecology, migration and evolution in human-altered environments."
+url: "https://pablocl.com"
+baseurl: ""
 twitter_username: p_capi
 github_username: PabloCapilla
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -29,12 +32,15 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 3 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+
+exclude:
+  - AGENTS.md
+  - readme.md
+  - scraps/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -59,8 +65,8 @@ plugins:
 
 author:
   name   : "Pablo Capilla-Lasheras"
-  avatar : "/assets/images/profile_photo2.jpg"
-  bio    :
+  avatar : "/assets/images/bio/20230610-profile-00042.jpeg"
+  bio    : "Ramón y Cajal Fellow at Rey Juan Carlos University, Madrid."
   links:
     - label: "Google Scholar Profile"
       icon: "fas fa-fw fa-graduation-cap"
@@ -77,8 +83,11 @@ author:
 
 footer:
   links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=5JMTO-kAAAAJ&hl=en"
     - label: "Bluesky"
-      icon: "fa-brands fa-bluesky"
+      icon: "fas fa-fw fa-link"
       url: "https://bsky.app/profile/pcapi.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -86,7 +95,7 @@ footer:
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto: pacapilla@gmail.com"
-    - label: "Instagram"
+    - label: "MIGRALIGHT Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/migralight/"
 
@@ -117,7 +126,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-# Altmetric
-altmetric:
-  api_key: 22520439fa3047868ddd134ef2229449

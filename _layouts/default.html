@@ -7,14 +7,16 @@
     {% include head.html %}
     {% include head/custom.html %}
 
-    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    {% if page.layout == "publications" %}
+      <script defer src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+    {% endif %}
 
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+    {% include masthead.html %}
 
     <div class="initial-content">
       {{ content }}

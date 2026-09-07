@@ -1,3 +1,5 @@
-# Repository under construction. Not yet fully fledged.
+# Pablo Capilla-Lasheras
 
-For now, if you are interested in my research, please check Google Scholar [here](https://scholar.google.com/citations?user=5JMTO-kAAAAJ&hl=en) or my [University of Glasgow webpage](https://www.gla.ac.uk/schools/bohvm/staff/pablocapillalasheras/).
+Source for the personal research website at [pablocl.com](https://pablocl.com), built with Jekyll and Minimal Mistakes.
+
+The website presents research on behavioural ecology, migration and evolution in human-altered environments.

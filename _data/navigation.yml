@@ -1,10 +1,11 @@
 main:
-  - title: "Research"
+  - title: "Research in a human-altered world"
     url: /research/
-  - title: "MIGRALIGHT"
-    url: /MIGRALIGHT/
-  - title: Team
+  - title: "The Scops Owl Project"
+    url: /scops_owl_project/
+  - title: "Team"
     url: /team/
   - title: "Publications"
     url: /publications/
-    output: true
+  - title: "Diversity and Inclusion Manifesto"
+    url: /manifesto/

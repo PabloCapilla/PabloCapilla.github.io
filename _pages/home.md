@@ -1,84 +1,47 @@
 ---
-layout: splash
+layout: landing
 permalink: /
-hidden: true
-header:
-  overlay_image: /assets/images/welcome.jpg
-  text_color: black
-  actions:
-    - label: "Check out the latest publication!"
-      url: /publications/
-excerpt: "Pablo Capilla-Lasheras' research"
+title: "Pablo Capilla-Lasheras"
+excerpt: "Behavioural ecology, migration and evolution in human-altered environments."
+classes: home-landing
 author_profile: false
-feature_row:
-  - image_path: /assets/images/home/research_block.jpg
-    alt: " "
-    title: " "
-    excerpt: " "
-    url: "/research/"
-    btn_label: "Research"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/home/publications_block.jpg
-    alt: " "
-    title: " "
-    excerpt: " "
-    url: "/publications/"
-    btn_label: "Publications"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/home/bio_block.jpg
-    title: " "
-    excerpt: " "
-    url: "/bio/"
-    btn_label: "Bio"
-    btn_class: "btn--inverse"
-news_section:
-    title: "News"
 ---
 
-{% include feature_row %}
+<section class="landing-hero" aria-labelledby="landing-title">
+  {% assign featured_image_path = "/assets/images/home/carousel/tagging_scops_owls_Daniel_Leopoldsberger (24).JPG" %}
+  {% assign carousel_images = site.static_files | where_exp: "image", "image.path contains '/assets/images/home/carousel/'" | sort: "path" %}
+  <div class="landing-hero__media" data-landing-carousel data-interval="8000">
+    <img class="landing-hero__image landing-hero__image--featured is-active" src="{{ featured_image_path | relative_url | uri_escape }}" alt="Researchers tagging Eurasian scops owls beneath an oak tree" width="5568" height="3712" fetchpriority="high" data-credit="Photo: Daniel Leopoldsberger">
+    <img class="landing-hero__image" src="/assets/images/home/landing-hero.jpg" alt="" width="1500" height="958" loading="lazy" aria-hidden="true">
+    {% for image in carousel_images %}
+      {% assign extension = image.extname | downcase %}
+      {% unless image.path == featured_image_path %}
+        {% if extension == ".jpg" or extension == ".jpeg" or extension == ".png" or extension == ".webp" or extension == ".avif" %}
+          {% assign focal_class = "" %}
+          {% case image.name %}
+            {% when "falcon.jpg" %}{% assign focal_class = "landing-hero__image--focus-25" %}
+            {% when "IMG_4362.jpg" %}{% assign focal_class = "landing-hero__image--focus-68" %}
+            {% when "Predation Risk.jpg" %}{% assign focal_class = "landing-hero__image--focus-65" %}
+            {% when "publications_block.jpg" %}{% assign focal_class = "landing-hero__image--focus-70" %}
+            {% when "sparrowhawk-1.jpg" %}{% assign focal_class = "landing-hero__image--focus-35" %}
+            {% when "wbsw.jpg" %}{% assign focal_class = "landing-hero__image--focus-35" %}
+            {% when "wbsw2.jpg" %}{% assign focal_class = "landing-hero__image--focus-35" %}
+            {% when "WhatsApp Image 2023-06-10 at 23.42.00.jpeg" %}{% assign focal_class = "landing-hero__image--focus-70" %}
+          {% endcase %}
+          <img class="landing-hero__image {{ focal_class }}" src="{{ image.path | relative_url | uri_escape }}" alt="" loading="lazy" aria-hidden="true"{% if image.name contains "Daniel_Leopoldsberger" %} data-credit="Photo: Daniel Leopoldsberger"{% endif %}>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+  <div class="landing-hero__shade"></div>
+  <div class="landing-hero__content">
+    <p class="eyebrow">Behaviour · Ecology · Evolution</p>
+    <h1 id="landing-title">Life in a human-altered world</h1>
+    <p class="landing-hero__statement">We study animals in human-altered environments, integrating across disciplines, from behaviour and physiology to ecology and evolution.</p>
+    <p class="landing-hero__role">Ramón y Cajal Fellow at Rey Juan Carlos University, Madrid</p>
+    <a class="text-arrow text-arrow--light" href="/BeEcoEvo/">Explore the research <span aria-hidden="true">→</span></a>
+  </div>
+  <p class="landing-hero__credit" data-carousel-credit>Photo: Daniel Leopoldsberger</p>
+</section>
 
-<div class="news-section">
-  <h2>{{ page.news_section.title }}</h2>
-  <ul class="news-list">
-    <li class="news-item">
-      <h3>Successful field campaign</h3>
-      <p>The MIGRALIGHT team completed another successful campaign of data and sample collection. Check the numbers of the 2025 field season <a href="https://www.instagram.com/p/DO-_Xo-iItQ/?utm_source=ig_web_copy_link&igsh=c2VzNzg1cWJoZmM4">here</a>. Our scops owls of study will be starting their autumn migration soon!</p>
-      <span class="news-date">September 1, 2025</span>
-    </li>
-    <li class="news-item">
-      <h3>New paper on sex differences in cooperation</h3>
-      <p>In this paper, recently published in PLoS Biology, we investigate the main hypotheses for the evolution of sex differences in cooperation. You can find the paper Open Access <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002859">here</a>.</p>
-      <span class="news-date">October 24, 2024</span>
-    </li>
-
-    <li class="news-item">
-      <h3>New Urban Ecology and Evolution paper published in the Journal of Animal Ecology</h3>
-      <p>Differences in clutch size between birds living in anthropogenic and more pristine environments are commonly reported. However, we don't know why. Is this pattern an adaptive strategy to survive in anthropogenic habitats? Do these differences represent environmental constraints? In this paper, under the brilliant lead of <a href="https://www.gla.ac.uk/pgrs/markpitt/">Mark Pitt</a>, we investigate these questions. Find the paper <a href="https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2656.14171">here</a>.</p>
-      <span class="news-date">September 1, 2024</span>
-    </li>
-    <li class="news-item hidden">
-      <h3>Project MIGRALIGHT Begins</h3>
-      <p>We have officially launched the <a href="https://pablocl.com/MIGRALIGHT/">MIGRALIGHT project</a>, studying the effects of urbanisation and artificial light on migratory birds.</p>
-      <p>The project is funded by a Marie Skłodowska-Curie Actions Global Fellowship and represents a collaboration between the <a href="https://www.vogelwarte.ch/en/">Swiss Ornithological Institute</a> and <a href="https://www.ebd.csic.es/en/node">Doñana Biological Station - CSIC</a>.</p>
-      <span class="news-date">August 1, 2024</span>
-    </li>
-  </ul>
-  <button id="toggle-news-btn" class="btn">Show more news</button>
-</div>
-
-<script>
-  document.getElementById('toggle-news-btn').addEventListener('click', function () {
-    const hiddenItems = document.querySelectorAll('.news-item.hidden');
-    const allItems = document.querySelectorAll('.news-item');
-
-    if (this.textContent === 'Show more news') {
-      hiddenItems.forEach(item => item.classList.remove('hidden'));
-      this.textContent = 'Show less news';
-    } else {
-      allItems.forEach((item, index) => {
-        if (index >= 2) item.classList.add('hidden');
-      });
-      this.textContent = 'Show more news';
-    }
-  });
-</script>
+<script src="{{ '/assets/js/landing-carousel.js' | relative_url }}" defer></script>

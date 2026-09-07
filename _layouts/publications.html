@@ -2,153 +2,58 @@
 layout: default
 ---
 
-{% capture splash_image %}/assets/images/publications/front_publications.jpg{% endcapture %}
-<div class="splash-image">
-  <img src="{{ splash_image }}" alt="Splash Image">
-</div>
+<main id="main" class="publications-shell" role="main">
+  <header class="publications-header">
+    <p class="eyebrow">Research record</p>
+    <h1>{{ page.title }}</h1>
+    <p>{{ site.data.publications.papers.size }} peer-reviewed articles spanning behavioural ecology, migration, urban biology and evolution.</p>
+  </header>
 
-{% assign publications = site.data.publications %}
-{% assign total_publications = 0 %}
-{% for category in publications %}
-  {% assign category_publications = category[1] %}
-  {% assign total_publications = total_publications | plus: category_publications.size %}
-{% endfor %}
-{% assign counter = total_publications %}
-
-<div class="publications-list">
-
-  <br> <!-- Add a line break here -->
-
-  {% for category in publications %}
-    {% assign category_name = category[0] %}
-    {% assign category_publications = category[1] %}
-    {% assign sorted_publications = category_publications | sort: "year" | sort: "id" | reverse %}
-
-    {% if category_name == "pre-prints" %}
-      <h1>{{ category_name | capitalize }}</h1>
-    {% else %}
-      {% continue %}
-    {% endif %}
-
-    {% assign current_year = "" %}
-    {% for publication in sorted_publications %}
-      {% assign year = publication.year | default: "" %}
-
-      {% if year != current_year %}
-        {% assign current_year = year %}
-        <h3> </h3>
-      {% endif %}
-
-      <div>
-        <span class="publication-number">{{ counter }}</span>
-        <span class="publication-divider"> - </span>
-        <span class="publication-authors">
-          {% assign authors = publication.authors | join: ', ' %}
-          {% assign highlighted_authors = authors | replace: "Capilla-Lasheras P.", "<strong>Capilla-Lasheras P.</strong>" %}
-          {{ highlighted_authors }}
-        </span>
-        <span class="publication-year">{{ publication.year}}</span><span class="publication-divider">.</span>
-        <span class="publication-title">{{ publication.title }}</span><span class="publication-divider">.</span>
-        {% if publication.journal %}
-          <span class="publication-journal"><i>{{ publication.journal }}</i></span>
-        {% endif %}
-        {% if publication.pages %}
-          <span class="publication-pages">{{ publication.pages }}</span>
-        {% endif %}
-        {% if publication.source %}
-          <span class="publication-source"><i>{{ publication.source }}</i></span>
-        {% endif %}
-        {% if publication.pdf %}
-        <div class="button-container">
-          <a href="{{ publication.pdf }}" class="publication-button" target="_blank">pdf</a>
-        </div>
-        {% endif %}
-        {% if publication.doi %}
-          <a href="https://doi.org/{{ publication.doi }}" class="publication-button" target="_blank">DOI</a>
-        {% endif %}
-        {% if publication.code_doi %}
-          <a href="https://doi.org/{{ publication.code_doi }}" class="publication-button" target="_blank">code</a>
-        {% endif %}
-        {% if publication.data_doi %}
-          <a href="https://doi.org/{{ publication.data_doi }}" class="publication-button" target="_blank">data</a>
-        {% endif %}
-        {% if publication.altmetric_doi %}
-          <div class="publication-altmetric">
-            <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
-          </div>
-        {% endif %}
+  {% if site.data.publications.preprints %}
+    <section class="publication-section" aria-labelledby="preprints-title">
+      <div class="publication-section__heading">
+        <h2 id="preprints-title">Preprints</h2>
+        <span>{{ site.data.publications.preprints.size }}</span>
       </div>
+      {% assign preprints = site.data.publications.preprints | sort: "id" | reverse %}
+      <ol class="publication-list publication-list--unnumbered">
+        {% for publication in preprints %}
+          {% include publications.html publication=publication %}
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
 
-      <br> <!-- Add a line break here -->
-
-      {% assign counter = counter | minus: 1 %}
-    {% endfor %}
-  {% endfor %}
-
-  <h1>Peer-reviewed articles</h1>
-
-  {% for category in publications %}
-    {% assign category_name = category[0] %}
-    {% assign category_publications = category[1] %}
-    {% assign sorted_publications = category_publications | sort: "year" | sort: "id" | reverse %}
-
-    {% if category_name == "papers" %}
-      {% assign current_year = "" %}
-      {% for publication in sorted_publications %}
-        {% assign year = publication.year | default: "" %}
-
-        {% if year != current_year %}
-          {% assign current_year = year %}
-          <h3>{{ current_year }}</h3>
+  <section class="publication-section" aria-labelledby="articles-title">
+    <div class="publication-section__heading">
+      <h2 id="articles-title">Peer-reviewed articles</h2>
+      <span>{{ site.data.publications.papers.size }}</span>
+    </div>
+    {% assign papers = site.data.publications.papers | sort: "id" | reverse %}
+    {% assign current_year = "" %}
+    <ol class="publication-list">
+      {% for publication in papers %}
+        {% if publication.year != current_year %}
+          {% assign current_year = publication.year %}
+          <li class="publication-year-marker" aria-hidden="true"><span>{{ current_year }}</span></li>
         {% endif %}
-        <div>
-          <span class="publication-number">{{ counter }}</span>
-          <span class="publication-divider"> - </span>
-          <span class="publication-authors">
-            {% assign authors = publication.authors | join: ', ' %}
-            {% assign highlighted_authors = authors | replace: "Capilla-Lasheras P.", "<strong>Capilla-Lasheras P.</strong>" %}
-            {{ highlighted_authors }}
-          </span>
-          <span class="publication-year">{{ publication.year}}</span><span class="publication-divider">.</span>
-          <span class="publication-title">{{ publication.title }}</span><span class="publication-divider">.</span>
-          {% if publication.journal %}
-            <span class="publication-journal"><i>{{ publication.journal }}</i></span>
-          {% endif %}
-          {% if publication.pages %}
-            <span class="publication-pages">{{ publication.pages }}</span>
-          {% endif %}
-          {% if publication.source %}
-            <span class="publication-source">{{ publication.source }}</span>
-          {% endif %}
-          <div class="button-container">
-          {% if publication.pdf %}
-            <a href="{{ publication.pdf }}" class="publication-button" target="_blank">pdf</a>
-          {% endif %}
-          {% if publication.doi %}
-            <a href="https://doi.org/{{ publication.doi }}" class="publication-button" target="_blank">DOI</a>
-          {% endif %}
-          {% if publication.code_doi %}
-            <a href="https://doi.org/{{ publication.code_doi }}" class="publication-button" target="_blank">code</a>
-          {% endif %}
-          {% if publication.data_doi %}
-            <a href="https://doi.org/{{ publication.data_doi }}" class="publication-button" target="_blank">data</a>
-          {% endif %}
-          </div>
-          {% if publication.altmetric_doi %}
-            <div class="publication-altmetric">
-              <div class="altmetric-embed" data-badge-type="donut" data-link-target="_blank" data-badge-popover="right" data-doi="{{ publication.altmetric_doi }}"></div>
-            </div>
-          {% endif %}
-        </div>
-
-         <br> <!-- Add a line break here -->
-
-        {% assign counter = counter | minus: 1 %}
+        {% include publications.html publication=publication number=forloop.rindex %}
       {% endfor %}
-    {% else %}
-      {% continue %}
-    {% endif %}
-  {% endfor %}
-</div>
+    </ol>
+  </section>
 
-<link rel="stylesheet" href="C:\Users\pc395\PabloCapilla.github.io\assets\css\publications.css"></link>
+  {% if site.data.publications.research_outputs %}
+    <section class="publication-section" aria-labelledby="outputs-title">
+      <div class="publication-section__heading">
+        <h2 id="outputs-title">Other research outputs</h2>
+        <span>{{ site.data.publications.research_outputs.size }}</span>
+      </div>
+      {% assign outputs = site.data.publications.research_outputs | sort: "year" | reverse %}
+      <ol class="publication-list publication-list--unnumbered">
+        {% for publication in outputs %}
+          {% include publications.html publication=publication %}
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
+</main>
