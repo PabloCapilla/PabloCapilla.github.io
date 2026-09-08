@@ -10,7 +10,7 @@ excerpt: "An international project investigating migration in a changing and inc
 <div class="project-lead">
   <div>
     <p class="eyebrow">MIGRALIGHT · Ongoing project</p>
-    <p class="page-intro">Following scops owls across continents to understand how urbanisation and artificial light at night shape migration.</p>
+    <p class="page-intro">TEXT.</p>
   </div>
   <img src="/assets/images/V1_Negro_HighRes.png" alt="MIGRALIGHT project logo" width="1350" height="551">
 </div>
@@ -22,25 +22,23 @@ excerpt: "An international project investigating migration in a changing and inc
 ## The project
 
 
-MIGRALIGHT investigates how human-induced environmental change affects long-distance animal migration and the evolutionary consequences of migratory change. We monitor scops owl (*Otus scops*) populations living in contrasting environments across a broad geographical range.
-
-The project was launched with support from the Swiss Ornithological Institute and a Global Marie Skłodowska-Curie Action, and continues through an international network of researchers and conservation organisations.
+MIGRALIGHT investigates how human-induced environmental change affects long-distance animal migration and the evolutionary consequences of migratory change. The project was launched with support from the Swiss Ornithological Institute and a Global Marie Skłodowska-Curie Action, and continues through an international network of researchers and conservation organisations.
 
 <div class="objective-grid">
   <article>
     <span>01</span>
-    <h3>Compare</h3>
-    <p>Identify differences in migratory behaviour between urban and non-urban populations.</p>
+    <h3>1</h3>
+    <p>TEXT</p>
   </article>
   <article>
     <span>02</span>
-    <h3>Test</h3>
-    <p>Measure the effects of artificial light at night across a broad geographical range.</p>
+    <h3>2</h3>
+    <p>TEXT</p>
   </article>
   <article>
     <span>03</span>
-    <h3>Connect</h3>
-    <p>Determine population structure and connectivity under contrasting anthropogenic pressures.</p>
+    <h3>3</h3>
+    <p>TEXT</p>
   </article>
 </div>
 
@@ -61,7 +59,7 @@ The project brings together scientific and public organisations across Europe. P
 
 <aside class="callout callout--dark">
   <p class="eyebrow">Work with us</p>
-  <h2>Part of the scops owl research community?</h2>
-  <p>We welcome conversations with researchers and organisations working on scops owls, migration, urban ecology or artificial light at night.</p>
-  <a class="text-arrow text-arrow--light" href="mailto:pacapilla@gmail.com">Get in touch <span aria-hidden="true">→</span></a>
+  <h2>TEXT</h2>
+  <p>TEXT</p>
+  <a class="text-arrow text-arrow--light" href="mailto:pablo.capilla@urjc.es">Get in touch <span aria-hidden="true">→</span></a>
 </aside>
