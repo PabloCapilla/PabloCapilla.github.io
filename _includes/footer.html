@@ -1,4 +1,5 @@
 <div class="site-footer">
+  <a class="site-footer__title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
   <nav class="site-footer__links" aria-label="Profile and contact links">
     {% for link in site.footer.links %}
       {% if link.label and link.url %}

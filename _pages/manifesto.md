@@ -1,6 +1,6 @@
 ---
 permalink: /manifesto/
-title: "Diversity and Inclusion Manifesto - UNDER CONSTRUCTION"
+title: "Manifesto"
 layout: single
 author_profile: false
 classes: editorial-page manifesto-page
@@ -9,23 +9,23 @@ excerpt: "Our shared commitments to inclusion, professional conduct and responsi
 
 <p class="page-intro">Excellent science depends on a culture in which people are respected, supported and able to contribute fully. Everyone who joins or works with our group is expected to uphold the commitments set out here.</p>
 
-## Respect and inclusion
+## Respect, inclusion and diversity
 
-We welcome people of every background, identity and career path. We do not tolerate discrimination, harassment, bullying, intimidation or exclusion based on personal characteristics, circumstances or beliefs.
+We celebrate diversity and believe that it improves both our working environment and the work we produce. We welcome people of every background, identity and career path. We do not tolerate discrimination, harassment, bullying, intimidation or exclusion.
 
 We commit to:
 
 - treating colleagues, students, collaborators, research participants and community partners with dignity and courtesy;
 - using people's chosen names and pronouns and respecting their identities and privacy;
 - listening to perspectives shaped by different cultures, disciplines and lived experiences;
-- making reasonable adjustments that enable people with disabilities, health conditions or caring responsibilities to participate fully; and
+- to the best we can, making reasonable adjustments that enable people with disabilities, health conditions or caring responsibilities to participate fully; and
 - challenging discriminatory or disrespectful behaviour rather than leaving that responsibility to those affected by it.
 
 ## Professional conduct
 
 Professionalism means being dependable, honest and considerate. We communicate clearly, meet agreed responsibilities, respect other people's time and boundaries, and acknowledge mistakes. Scientific disagreement is welcome; personal attacks and dismissive behaviour are not.
 
-Feedback should be specific, constructive and proportionate. Differences in seniority, employment security, language or confidence must never be used to silence, pressure or disadvantage others. Romantic or sexual attention, coercion, retaliation and abuses of authority have no place in our working environment.
+Feedback should be specific, constructive and proportionate. Differences in seniority, employment security, language or confidence must never be used to silence, pressure or disadvantage others. Coercion, retaliation and abuses of authority have no place in our working environment.
 
 ## Fair participation and development
 
@@ -41,7 +41,7 @@ We commit to:
 
 - keeping accurate research records and managing data securely and responsibly;
 - reporting methods, limitations and uncertainty openly;
-- sharing data, code and materials when ethical, legal and practical constraints allow;
+- sharing manuscripts, data, code and materials in publicaly available repositories;
 - assigning authorship and acknowledgement according to genuine contributions;
 - declaring conflicts of interest and correcting errors promptly;
 - obtaining all required ethical approvals, permits and permissions before research begins; and
@@ -60,3 +60,9 @@ Anyone who experiences or witnesses conduct inconsistent with this manifesto is 
 Inclusion and integrity require continued attention rather than a one-time declaration. We will revisit this manifesto as the group develops, learn from criticism and evidence, and change our practices when they fall short of these commitments.
 
 By working with the group, we agree to contribute to a research culture that is rigorous, fair, respectful and kind.
+
+## Links to find information, help and to raise your voice
+
+- [Diversity Unit, Rey Juan Carlos University](https://www.urjc2030.es/ud/)
+- [Student helpdesk, Rey Juan Carlos University](https://www.urjc.es/contacto)
+- [LGBTI+ Madrid, COGAM](https://cogam.es/)

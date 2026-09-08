@@ -72,8 +72,9 @@ button:focus-visible {
 
 .greedy-nav .site-title {
   margin-right: 2rem;
-  font-size: 1.12rem;
-  letter-spacing: -0.02em;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
 .greedy-nav a {
@@ -138,9 +139,16 @@ button:focus-visible {
 }
 
 .research-page .page__title {
+  width: 100%;
+  max-width: none;
   font-size: clamp(2.5rem, 5vw, 4.2rem);
   line-height: 1.02;
   letter-spacing: -0.045em;
+}
+
+.research-page .page-intro {
+  width: 100%;
+  max-width: none !important;
 }
 
 .editorial-page .page__content {
@@ -362,6 +370,17 @@ button:focus-visible {
   width: 100%;
   aspect-ratio: 5 / 4;
   object-fit: cover;
+  border-radius: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.research-theme__media {
+  margin: 0;
+}
+
+.research-theme__media figcaption {
+  margin-top: 0.65rem;
+  color: var(--ink-soft);
+  font-size: 0.76rem;
 }
 
 .research-theme--reverse div {
@@ -508,6 +527,16 @@ button:focus-visible {
 }
 
 /* People */
+.people-page .page__inner-wrap > header,
+.people-page .page-intro,
+.people-page .people-intro,
+.people-page .page__content > h2,
+.people-page .compact-list,
+.people-page .collaborator-grid {
+  width: 100%;
+  max-width: none !important;
+}
+
 .people-intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -518,7 +547,7 @@ button:focus-visible {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
   margin: 2rem 0 5rem;
   background: var(--line);
@@ -527,8 +556,7 @@ button:focus-visible {
 
 .person-card {
   display: grid;
-  grid-template-columns: 42% 58%;
-  min-height: 330px;
+  grid-template-rows: 280px 1fr;
   background: var(--paper-light);
 }
 
@@ -560,6 +588,14 @@ button:focus-visible {
   font-size: 1.7rem;
 }
 
+.person-card__pronouns {
+  color: var(--ink-soft);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
 .person-card__institution,
 .person-card__supervision {
   color: var(--ink-soft);
@@ -581,6 +617,12 @@ button:focus-visible {
   break-inside: avoid;
   padding: 0.7rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.past-member__supervision {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
 }
 
 .collaborator-grid {
@@ -731,6 +773,16 @@ button:focus-visible {
   display: block;
 }
 
+.site-footer__title {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
 .site-footer__links {
   display: flex;
   gap: 1rem;
@@ -762,6 +814,12 @@ button:focus-visible {
   .objective-grid,
   .people-grid {
     grid-template-columns: 1fr;
+  }
+
+  .person-card {
+    grid-template-columns: 35% 65%;
+    grid-template-rows: none;
+    min-height: 300px;
   }
 
   .objective-grid article {

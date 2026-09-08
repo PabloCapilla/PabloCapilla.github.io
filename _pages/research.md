@@ -22,7 +22,10 @@ excerpt: "Research into how human-induced environmental change reshapes animal l
     <p class="eyebrow">02 · The role of behaviour in adaptation to human-altered environments</p>
     <p>Behaviour often responds rapidly to environmental change. Whether arising through phenotypic plasticity or microevolution, behavioural responses can provide a first route to adaptation in changing environments. Behaviour can also accelerate or slow the pace of evolution, making it an important driver of adaptive change. We currently use migration, a key eco-evolutionary trait, to test hypotheses about the role of behaviour in adaptation to human-altered environments. Our work focuses on long-distance bird migration, daily and seasonal biological rhythms. The ongoing <a href="/scops_owl_project/">Scops Owl Project</a> tracks migratory populations across Europe and urbanisation gradients to understand how life in human-altered environments affects movement, and its feedback to adaptation.</p>
   </div>
-  <img src="/assets/images/research/tagging_scops_owls_Daniel_Leopoldsberger (21).JPG" alt="Tracking migration of scops owls" width="1500" height="958" loading="lazy">
+  <figure class="research-theme__media">
+    <img src="/assets/images/research/tagging_scops_owls_Daniel_Leopoldsberger (21).JPG" alt="Tracking migration of scops owls" width="1500" height="958" loading="lazy">
+    <figcaption>Photo: Daniel Leopoldsberger</figcaption>
+  </figure>
 </section>
 
 <section class="research-theme research-theme--split research-theme--reverse">

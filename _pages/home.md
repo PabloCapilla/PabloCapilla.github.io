@@ -36,9 +36,9 @@ author_profile: false
   <div class="landing-hero__shade"></div>
   <div class="landing-hero__content">
     <p class="eyebrow">Behaviour · Ecology · Evolution</p>
-    <h1 id="landing-title">Life in a human-altered world</h1>
+    <h1 id="landing-title">Biological Research in a human-altered world</h1>
     <p class="landing-hero__statement">We study animals in human-altered environments, integrating across disciplines, from behaviour and physiology to ecology and evolution.</p>
-    <p class="landing-hero__role">Ramón y Cajal Fellow at Rey Juan Carlos University, Madrid</p>
+    <p class="landing-hero__role">Global Change Research Institute - Rey Juan Carlos University (Madrid, Spain)</p>
     <a class="text-arrow text-arrow--light" href="/BeEcoEvo/">Explore the research <span aria-hidden="true">→</span></a>
   </div>
   <p class="landing-hero__credit" data-carousel-credit>Photo: Daniel Leopoldsberger</p>

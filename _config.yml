@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 locale: en-GB
 title: "Pablo Capilla-Lasheras"
-masthead_title: "Pablo Capilla-Lasheras"
+masthead_title: "Pablo Capilla-Lasheras research group"
 subtitle:
 email: pacapilla@gmail.com
 description: "Behavioural ecology, migration and evolution in human-altered environments."

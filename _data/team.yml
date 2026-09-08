@@ -1,33 +1,72 @@
 current:
   - name: "Pablo Capilla-Lasheras"
-    role: "Ramón y Cajal Fellow"
-    institution: "Rey Juan Carlos University, Madrid"
+    pronouns: "he/his"
+    role: "Group leader · Ramón y Cajal Fellow"
+    institution: "Global Change Research Institute · Rey Juan Carlos University, Madrid"
     description: "Evolutionary ecologist studying how animals respond to human-induced environmental change, with a particular focus on migration, urbanisation and biological rhythms."
     image: "/assets/images/bio/20230610-profile-00042.jpeg"
     alt: "Portrait of Pablo Capilla-Lasheras"
     profile_url: "/bio/"
   - name: "Alejandro Molinero"
+    pronouns:
     role: "MSc student"
     institution: "Pablo de Olavide University"
     supervision: "Co-supervised with Blanca Jimeno"
     description: "Ale is investigating whether epigenetic potentail could explain biological success in urban habitats. He is using genomics to quantify epigenetic potential in urban and non-urban populations of scops owl across Iberia"
   - name: "Lucas Pelta"
+    pronouns:
     role: "MSc student"
     institution: "University of Granada"
     supervision: "Co-supervised with Juan Diego Ibáñez-Álamo"
     description: "Lucas is employing different technology (e.g., passive acoustic monitoring) and citizen sciene to detect non-migratory scops owls, with the final aim of determining if migratory drop off in the species is associated with living in human-altered habitats."
+    image: "/assets/images/team/Lucas_Pelta.jpeg"
   
-
 past:
-  - "Leonie Pries · BSc 2025 · University of Gothenburg"
-  - "Isabel Fisher · MSc 2025 · Université Paris-Saclay"
-  - "Emma Poliakova · MSc 2023 · University of Glasgow"
-  - "Mark Pitt · MSc 2022 · University of Glasgow"
-  - "Paddy McCleave · BSc 2022 · University of Glasgow"
-  - "Andrew Doyle · BSc 2022 · University of Glasgow"
-  - "Thomas MacGillavry · BSc 2022 · University of Glasgow"
-  - "Rachel McLeod · MSc 2021 · University of Glasgow"
-  - "Cara Cochrane · MSc 2020 · University of Glasgow"
+  - name: "Leonie Pries"
+    degree: "BSc"
+    year: 2025
+    supervision: "Co-supervised with Barbara Helm"
+    institution: "University of Gothenburg"
+  - name: "Isabel Fisher"
+    degree: "MSc"
+    year: 2025
+    supervision: "Co-supervised with Barbara Helm"
+    institution: "Université Paris-Saclay · Swiss Ornithological Institute"
+  - name: "Emma Poliakova"
+    degree: "MSc"
+    year: 2023
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
+  - name: "Mark Pitt"
+    degree: "MSc"
+    year: 2022
+    supervision: "Co-supervised with Davide Dominoni and Jelle Boonekamp"
+    institution: "University of Glasgow"
+  - name: "Paddy McCleave"
+    degree: "BSc"
+    year: 2022
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
+  - name: "Andrew Doyle"
+    degree: "BSc"
+    year: 2022
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
+  - name: "Thomas MacGillavry"
+    degree: "BSc"
+    year: 2022
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
+  - name: "Rachel McLeod"
+    degree: "MSc"
+    year: 2021
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
+  - name: "Cara Cochrane"
+    degree: "MSc"
+    year: 2020
+    supervision: "Co-supervised with Davide Dominoni"
+    institution: "University of Glasgow"
 
 collaborators:
   - name: "Andrew Young"

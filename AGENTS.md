@@ -4,8 +4,8 @@
 
 - Personal academic/research website for Pablo Capilla-Lasheras, deployed through GitHub Pages at `pablocl.com`.
 - Built with Jekyll and the Minimal Mistakes theme.
-- The site is undergoing a major redesign. The current direction is a restrained, editorial, photography-led research portfolio rather than a conventional theme-driven academic website.
-- Pablo is now presented as a Ramón y Cajal Fellow at Rey Juan Carlos University in Madrid.
+- The site has undergone a major redesign. The current direction is a restrained, editorial, photography-led research portfolio rather than a conventional theme-driven academic website.
+- Pablo is now presented as a Ramón y Cajal Fellow at the Biology Department and Global Change Research Institute at Rey Juan Carlos University (IICG-URJC, Madrid, Spain)
 - Ruby dependencies and Jekyll plugins are defined in `Gemfile`.
 - Site-wide settings, author links, and theme configuration are in `_config.yml`.
 
@@ -17,7 +17,7 @@
 - The visual language uses warm ivory, charcoal, muted moss and ochre, with serif display typography and sans-serif supporting text.
 - The main responsive design system is consolidated in `assets/css/main.scss`.
 - Search and the home-page news feed have been removed to reduce visual and maintenance overhead.
-- The footer carries the current appointment and links to Google Scholar, Bluesky, GitHub, email and the MIGRALIGHT Instagram account.
+- The footer carries the name of current appointment and links to Google Scholar, Bluesky, GitHub, email and the MIGRALIGHT Instagram account.
 - Continue making small, reviewable refinements. Do not replace the design wholesale without discussing a new direction with the user.
 
 ## Current Navigation And Routes

@@ -1,6 +1,6 @@
 ---
 permalink: /team/
-title: "This is the team"
+title: "The team"
 layout: single
 author_profile: false
 classes: editorial-page people-page
@@ -26,7 +26,7 @@ excerpt: "Students and collaborators working across behavioural ecology, migrati
       {% endif %}
       <div class="person-card__body">
         <p class="eyebrow">{{ person.role }}</p>
-        <h3>{{ person.name }}</h3>
+        <h3>{{ person.name }}{% if person.pronouns %} <span class="person-card__pronouns">({{ person.pronouns }})</span>{% endif %}</h3>
         <p class="person-card__institution">{{ person.institution }}</p>
         <p>{{ person.description }}</p>
         {% if person.supervision %}<p class="person-card__supervision">{{ person.supervision }}</p>{% endif %}
@@ -39,7 +39,12 @@ excerpt: "Students and collaborators working across behavioural ecology, migrati
 ## Past members
 
 <ul class="compact-list">
-  {% for person in site.data.team.past %}<li>{{ person }}</li>{% endfor %}
+  {% for person in site.data.team.past %}
+    <li>
+      {{ person.name }} · {{ person.degree }} {{ person.year }} · {{ person.institution }}
+      {% if person.supervision %}<span class="past-member__supervision">{{ person.supervision }}</span>{% endif %}
+    </li>
+  {% endfor %}
 </ul>
 
 ## Collaborators
