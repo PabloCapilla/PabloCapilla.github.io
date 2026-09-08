@@ -39,7 +39,7 @@ author_profile: false
     <h1 id="landing-title">Behaviour, Ecology & Evolution in a human-altered world</h1>
     <p class="landing-hero__statement">We study animals in human-altered environments, integrating across disciplines, from behaviour and physiology to ecology and evolution.</p>
     <p class="landing-hero__role">Global Change Research Institute - Rey Juan Carlos University (Madrid, Spain)</p>
-    <a class="text-arrow text-arrow--light" href="/BeEcoEvo/">Explore the research <span aria-hidden="true">→</span></a>
+    <a class="text-arrow text-arrow--light" href="/research/">Explore the research <span aria-hidden="true">→</span></a>
   </div>
   <p class="landing-hero__credit" data-carousel-credit>Photo: Daniel Leopoldsberger</p>
 </section>
