@@ -213,7 +213,33 @@ button:focus-visible {
 }
 
 /* Landing */
+.home-landing {
+  display: flex;
+  height: 100svh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.home-landing .masthead {
+  flex: 0 0 auto;
+}
+
+.home-landing .initial-content {
+  min-height: 0;
+  flex: 1 1 auto;
+}
+
+.home-landing .page__footer {
+  display: none;
+}
+
+.home-landing .landing-hero {
+  height: 100%;
+  min-height: 0;
+}
+
 .landing {
+  height: 100%;
   max-width: none !important;
   padding: 0;
 }
@@ -292,9 +318,9 @@ button:focus-visible {
   max-width: 780px;
   margin: 0 0 1.5rem;
   color: #fff;
-  font-size: clamp(3.7rem, 9vw, 8.5rem);
-  line-height: 0.87;
-  letter-spacing: -0.065em;
+  font-size: clamp(3rem, 6.5vw, 6rem);
+  line-height: 0.94;
+  letter-spacing: -0.055em;
 }
 
 .landing-hero__statement {
@@ -871,7 +897,7 @@ button:focus-visible {
   }
 
   .landing-hero h1 {
-    font-size: clamp(3.3rem, 17vw, 5.2rem);
+    font-size: clamp(2.5rem, 12vw, 3.8rem);
   }
 
   .editorial-page .page__inner-wrap > header {

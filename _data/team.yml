@@ -13,6 +13,8 @@ current:
     institution: "Pablo de Olavide University"
     supervision: "Co-supervised with Blanca Jimeno"
     description: "Ale is investigating whether epigenetic potentail could explain biological success in urban habitats. He is using genomics to quantify epigenetic potential in urban and non-urban populations of scops owl across Iberia"
+    image: "/assets/images/team/Ale_Molinero.jpg"
+
   - name: "Lucas Pelta"
     pronouns:
     role: "MSc student"
