@@ -1,5 +1,28 @@
-_site
-.sass-cache
+# Jekyll and Sass output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+
+# Local Ruby dependencies
+.bundle/
+vendor/
 Gemfile.lock
+
+# Project-internal files
+AGENTS.md
+.dbxignore
+scraps/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*~
 .DS_Store
+._*
