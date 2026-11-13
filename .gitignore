@@ -12,7 +12,8 @@ Gemfile.lock
 # Project-internal files
 AGENTS.md
 .dbxignore
-scraps/
+scraps/*
+!scraps/scops-owl-project.md
 
 # Local environment files
 .env

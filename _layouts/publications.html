@@ -6,22 +6,23 @@ layout: default
   <header class="publications-header">
     <p class="eyebrow">Research record</p>
     <h1>{{ page.title }}</h1>
-    <p>{{ site.data.publications.papers.size }} peer-reviewed articles spanning behavioural ecology, migration, urban biology and evolution.</p>
+    <p>{{ site.data.publications.papers.size }} peer-reviewed articles and other outputs spanning behavioural ecology,
+      migration, urban biology and evolution.</p>
   </header>
 
   {% if site.data.publications.preprints %}
-    <section class="publication-section" aria-labelledby="preprints-title">
-      <div class="publication-section__heading">
-        <h2 id="preprints-title">Preprints</h2>
-        <span>{{ site.data.publications.preprints.size }}</span>
-      </div>
-      {% assign preprints = site.data.publications.preprints | sort: "id" | reverse %}
-      <ol class="publication-list publication-list--unnumbered">
-        {% for publication in preprints %}
-          {% include publications.html publication=publication %}
-        {% endfor %}
-      </ol>
-    </section>
+  <section class="publication-section" aria-labelledby="preprints-title">
+    <div class="publication-section__heading">
+      <h2 id="preprints-title">Preprints</h2>
+      <span>{{ site.data.publications.preprints.size }}</span>
+    </div>
+    {% assign preprints = site.data.publications.preprints | sort: "id" | reverse %}
+    <ol class="publication-list publication-list--unnumbered">
+      {% for publication in preprints %}
+      {% include publications.html publication=publication %}
+      {% endfor %}
+    </ol>
+  </section>
   {% endif %}
 
   <section class="publication-section" aria-labelledby="articles-title">
@@ -33,27 +34,27 @@ layout: default
     {% assign current_year = "" %}
     <ol class="publication-list">
       {% for publication in papers %}
-        {% if publication.year != current_year %}
-          {% assign current_year = publication.year %}
-          <li class="publication-year-marker" aria-hidden="true"><span>{{ current_year }}</span></li>
-        {% endif %}
-        {% include publications.html publication=publication number=forloop.rindex %}
+      {% if publication.year != current_year %}
+      {% assign current_year = publication.year %}
+      <li class="publication-year-marker" aria-hidden="true"><span>{{ current_year }}</span></li>
+      {% endif %}
+      {% include publications.html publication=publication number=forloop.rindex %}
       {% endfor %}
     </ol>
   </section>
 
   {% if site.data.publications.research_outputs %}
-    <section class="publication-section" aria-labelledby="outputs-title">
-      <div class="publication-section__heading">
-        <h2 id="outputs-title">Other research outputs</h2>
-        <span>{{ site.data.publications.research_outputs.size }}</span>
-      </div>
-      {% assign outputs = site.data.publications.research_outputs | sort: "year" | reverse %}
-      <ol class="publication-list publication-list--unnumbered">
-        {% for publication in outputs %}
-          {% include publications.html publication=publication %}
-        {% endfor %}
-      </ol>
-    </section>
+  <section class="publication-section" aria-labelledby="outputs-title">
+    <div class="publication-section__heading">
+      <h2 id="outputs-title">Other research outputs</h2>
+      <span>{{ site.data.publications.research_outputs.size }}</span>
+    </div>
+    {% assign outputs = site.data.publications.research_outputs | sort: "year" | reverse %}
+    <ol class="publication-list publication-list--unnumbered">
+      {% for publication in outputs %}
+      {% include publications.html publication=publication %}
+      {% endfor %}
+    </ol>
+  </section>
   {% endif %}
 </main>
