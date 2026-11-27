@@ -14,7 +14,10 @@ excerpt: "Students and collaborators working across behavioural ecology, migrati
   <p>Prospective fellows, PhD, MSc and BSc students, and interns are welcome to get in touch when their interests align with our research or methodological expertise.</p>
 </div>
 
-## Current researchers and students
+<header class="people-section-heading">
+  <h2 id="current-researchers-and-students">Current researchers and students</h2>
+  <p class="people-heading-note">Team members are listed alphabetically by first name.</p>
+</header>
 
 <div class="people-grid">
   {% for person in site.data.team.current %}

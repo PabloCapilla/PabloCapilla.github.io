@@ -162,7 +162,8 @@ button:focus-visible {
   max-width: var(--content);
 }
 
-.editorial-page .page__content > h2 {
+.editorial-page .page__content > h2,
+.people-section-heading h2 {
   margin-top: 4rem;
   font-size: clamp(2rem, 4vw, 3.3rem);
   line-height: 1.08;
@@ -586,6 +587,33 @@ button:focus-visible {
   max-width: 940px;
   gap: 3rem;
   margin-bottom: 5rem;
+}
+
+.people-section-heading {
+  margin-top: 4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.people-section-heading .people-heading-note {
+  margin: 0.25rem 0 0;
+  color: var(--ink-soft);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.people-page #current-researchers-and-students {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.people-section-heading + .people-grid {
+  margin-top: 0.75rem;
 }
 
 .people-grid {
