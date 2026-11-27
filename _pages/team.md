@@ -11,7 +11,7 @@ excerpt: "Students and collaborators working across behavioural ecology, migrati
 
 <div class="people-intro">
   <p>Our work draws on movement ecology, field experiments, ecological genomics, acoustic monitoring, physiology, stable-isotope ecology and many other methods. We value collaborative, open, fair and supportive science, and welcome people with different personal and academic backgrounds. Everyone in the group is committed to following our <a href="/manifesto/">Diversity and Inclusion Manifesto</a>.</p>
-  <p>Prospective fellows, MSc and BSc students, and interns are welcome to get in touch when their interests align with our research or methodological expertise.</p>
+  <p>Prospective fellows, PhD, MSc and BSc students, and interns are welcome to get in touch when their interests align with our research or methodological expertise.</p>
 </div>
 
 ## Current researchers and students

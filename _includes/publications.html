@@ -22,8 +22,8 @@
       {% assign data_doi = publication.data_doi | default: "" | remove: "https://doi.org/" | remove: "http://doi.org/" | remove: "doi.org/" %}
       {% if pdf_url != "" %}<a href="{{ pdf_url | relative_url | uri_escape }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
       {% if doi != "" %}<a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">DOI</a>{% endif %}
-      {% if code_doi != "" %}<a href="https://doi.org/{{ code_doi }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
-      {% if data_doi != "" %}<a href="https://doi.org/{{ data_doi }}" target="_blank" rel="noopener noreferrer">Data</a>{% endif %}
+      {% if code_doi != "" %}<a href="https://doi.org/{{ code_doi }}" target="_blank" rel="noopener noreferrer">Code</a>{% elsif publication.code_url %}<a href="{{ publication.code_url }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+      {% if data_doi != "" %}<a href="https://doi.org/{{ data_doi }}" target="_blank" rel="noopener noreferrer">Data</a>{% elsif publication.data_url %}<a href="{{ publication.data_url }}" target="_blank" rel="noopener noreferrer">Data</a>{% endif %}
       {% if publication.url %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">View record</a>{% endif %}
     </div>
   </div>

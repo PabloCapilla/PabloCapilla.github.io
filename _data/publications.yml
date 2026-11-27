@@ -14,6 +14,45 @@ research_outputs:
     url: "https://ore.exeter.ac.uk/articles/thesis/The_evolution_of_cooperation_in_an_arid-zone_bird_bet-hedging_plasticity_and_constraints/29768294"
 
 papers:
+  - id: 39
+    title: "Standardised multi-sensor geolocator data for bird migration ecology"
+    authors_text: "Nussbaumer R., Adamík P., Bell F., Boves T., Briedis M., Burgess M. D., Caballero-Lopez V., Capilla-Lasheras P., Contina A., Cooper N. W., Desmet P., Doniol-Valcroze P., Dufour P., Evens R., Galletta K. J., Gravey M., Hedenström A., Heim W., Helm B., Jiguet F., Kishkinev D., Klement D. J., Lathouwers M., Liechti F., Macías-Torres P., Procházka P., Rhyne G., Rime Y., Rushing C., Sjöberg S., Szarmach S., Ward M., Wong J. B., Zhao T."
+    year: 2026
+    journal: "Scientific Data"
+    doi: "10.1038/s41597-026-08873-x"
+    altmetric_doi: "10.1038/s41597-026-08873-x"
+    code_doi: "10.5281/zenodo.14258411"
+    data_doi: "10.5281/zenodo.18187093"
+
+  - id: 38
+    title: "Migration strategy and colonization: the disproportionate role of partial migration"
+    authors:
+      - Dufour P.
+      - Lees A. C.
+      - Reid J. M.
+      - Liedvogel M.
+      - Claramunt S.
+      - Capilla-Lasheras P.
+    year: 2026
+    journal: "Trends in Ecology & Evolution"
+    doi: "10.1016/j.tree.2026.10.006"
+    altmetric_doi: "10.1016/j.tree.2026.10.006"
+
+  - id: 37
+    title: "Cooperative care slows offspring telomere attrition and buffers growth against variable rainfall in a wild Kalahari bird"
+    authors:
+      - Capilla-Lasheras P.
+      - Wood E. M.
+      - Brown A.
+      - Young A. J.
+    year: 2026
+    journal: "Philosophical Transactions of the Royal Society B"
+    pages: "381(1963), 20250325"
+    doi: "10.1098/rstb.2025.0325"
+    altmetric_doi: "10.1098/rstb.2025.0325"
+    code_url: "https://github.com/PabloCapilla/cooperation_development"
+    data_url: "https://github.com/PabloCapilla/cooperation_development"
+
   # Published version of bioRxiv preprint 10.1101/2025.10.02.680078.
   - id: 36
     title: "Thermoregulatory strategy shapes physiological responses to dormancy in animals: A meta-analysis"
